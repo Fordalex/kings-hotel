@@ -1,26 +1,14 @@
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+# King's hotel
+First Project: User-Centric Frontend Development - Code Institute
 
+This is my first big project on my own using git, in this project i will do my best to show my skills i have learnt throughout the course so far.
 
-Hi there! Welcome to Cloud9 IDE!
+## built using
+1. cloud9 (html,css)
+2. bootstrap
+3. google font
+4. font awesome
 
-To get you started, we included a small hello world application.
+## Acknowledgements
 
-1) Open the hello-world.html file
-
-2) Click on the Preview button to open a live preview pane
-
-3) Make some changes to the file, save, watch the preview, and have fun!
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for documentation, or http://support.c9.io for support.
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+I will add all the links to all the sites i have taken inspiration from and i will also add links to the images.
