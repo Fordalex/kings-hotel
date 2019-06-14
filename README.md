@@ -9,7 +9,7 @@ This is my first big project on my own using git, in this project i will do my b
 3. google font
 4. font awesome
 
-## view website
+## View Website
 
 https://fordalex.github.io/milestone-project/
 
