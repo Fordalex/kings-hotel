@@ -54,6 +54,7 @@
 
 .navbar {
     border:solid #7A873E 1px;
+    background-color:white;
     width:100vw;
 }
 
@@ -142,6 +143,39 @@
 }
 
 /*      //navigation bar     */
+
+/*    landing page header    */
+
+.landing-page-container {
+    height: 100vh;
+    background: url("/assets/images/main-background.png")no-repeat center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -10;
+    position:relative;
+    bottom:100px;
+    z-index:-5;
+}
+
+.landing-wrapper {
+    height:92vh;
+}
+
+.landing-margin {
+    margin-bottom:120px;
+}
+
+.landing-checkdates-container {
+    width:100%;
+    height:60px;
+    background-color:white;
+    border-radius:10px 10px 0px 0px;
+    border: solid #7A873E 1px;
+}
+
+/*    //landing page header    */
 
 /*       footer         */
 
