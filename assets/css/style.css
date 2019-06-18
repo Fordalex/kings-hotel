@@ -170,9 +170,21 @@
     height:150px;
 }
 
+.main-reviews-button a {
+    width:110px;
+    margin-left: 65px;
+    color:white;
+}
+
+.main-reviews-button p {
+    color:white;
+}
+
+/*         check in dates and form    */
+
 .landing-dates-container {
     width:100%;
-    height:100px;
+    height:120px;
     background-color:white;
     border-radius:10px 10px 0px 0px;
 }
@@ -184,6 +196,30 @@
 .checkin-form div {
     display:inline-block;
 }
+
+.checkin-form div p {
+    margin:0;
+}
+
+input[type="number"] {
+    width:50px;
+    border-radius:2px;
+    border:#707070 solid 1px;
+    background-color:#FAFBDA;
+}
+
+input[type="date"] {
+    width:150px;
+    border-radius:2px;
+    border:#707070 solid 1px;
+    background-color:#FAFBDA;
+}
+
+.landing-check-dates {
+    margin-left: 25px;
+}
+
+/*         //check in dates and form    */
 
 /*    //landing page header    */
 
@@ -210,14 +246,42 @@
 
 /*    //windows     */
 
-/*  landing section  */
+/*  landing video and location section  */
 
-.location-video-section section {
-    height:200px;
-    width:30%;
+.location-video-container {
+    background-color:#F1F1F1;
 }
 
-/* // landing section   */
+.location-video-container section {
+    width:30%;
+    background-color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius: 5px;
+}
+
+section .location-video-wrapper {
+    border:solid #DEDEDE 1px;
+    width:98%;
+    height:97%;
+    padding:15px;
+}
+
+.vertical-line {
+    width:1px;
+    height:470px;
+    background-color:#A2A2A2;
+}
+
+.pictures-more-container {
+    background-color:#F1F1F1;
+    height:70px;
+}
+
+
+
+/* //landing video and location section   */
 
 /*       footer         */
 
