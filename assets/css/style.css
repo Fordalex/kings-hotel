@@ -147,7 +147,7 @@
 
 .landing-page-container {
     height: 90vh;
-    background: url("assets/images/main-background.png")no-repeat center; 
+    background: url("../images/main-background.png")no-repeat center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -190,7 +190,7 @@
 /*     windows      */
 
 .windows {
-    background: url("assets/images/windows.png") no-repeat center;
+    background: url("../images/windows.png") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -201,11 +201,11 @@
 
 .windows-background {
     height:218px;
-    background: url("assets/images/windows-background.png") no-repeat center fixed; 
+    background: url("../images/windows-background.png") no-repeat center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-     background-size: cover;
+    background-size: cover;
 }
 
 /*    //windows     */
