@@ -19,13 +19,13 @@
     background-image:linear-gradient(#BBA724,#d8b92d,#e5cd32);
 }
 
-.page-container {
-    position:relative;
-}
-
 .form-control:focus {
     box-shadow: 0 0 0 0.1rem rgba(229, 255, 0, 0.25);
     border-color: #c5e22f;
+}
+
+.page {
+    height:900px;
 }
 
 /*    //generic       */
@@ -55,7 +55,6 @@
 .navbar {
     border:solid #7A873E 1px;
     background-color:white;
-    width:100vw;
 }
 
 .navigation-button-container {
@@ -147,45 +146,83 @@
 /*    landing page header    */
 
 .landing-page-container {
-    height: 100vh;
+    height: 90vh;
     background: url("/assets/images/main-background.png")no-repeat center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     z-index: -10;
-    position:relative;
     bottom:100px;
-    z-index:-5;
+}
+
+.landing-background-container {
+    width:100%;
+    height:100%;
 }
 
 .landing-wrapper {
-    height:92vh;
-}
-
-.landing-margin {
-    margin-bottom:120px;
-}
-
-.landing-checkdates-container {
     width:100%;
-    height:60px;
+}
+
+.landing-review {
+    width:100%;
+    height:150px;
+}
+
+.landing-dates-container {
+    width:100%;
+    height:100px;
     background-color:white;
     border-radius:10px 10px 0px 0px;
-    border: solid #7A873E 1px;
+}
+
+.landing-dates-wrapper {
+    margin:0 auto;
+}
+
+.checkin-form div {
+    display:inline-block;
 }
 
 /*    //landing page header    */
 
+/*     windows      */
+
+.windows {
+    background: url("/assets/images/windows.png") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+    height:218px;
+    z-index:2;
+}
+
+.windows-background {
+    height:218px;
+    background: url("/assets/images/windows-background.png") no-repeat center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+}
+
+/*    //windows     */
+
+/*  landing section  */
+
+.location-video-section section {
+    height:200px;
+    width:30%;
+}
+
+/* // landing section   */
+
 /*       footer         */
 
 .footer {
-    width:100vw;
     height:235px;
-    position:absolute;
-    bottom:0;
-    left:0;
-    right:0;
     background-color:#DCCE73;
     border:solid 1px #707070;
 }

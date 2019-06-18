@@ -13,117 +13,159 @@
 
 <body>
 
-    <div class="page-container">
 
-        <!----        on sale        ---->
 
-        <div class="on-sale align-items-center d-none d-md-flex">
-            <p>25% Off when you book more than three nights! <span>More Details.</span></p>
-        </div>
+    <!----        on sale        ---->
 
-        <!----       //on sale        ---->
+    <div class="on-sale align-items-center d-none d-md-flex">
+        <p>25% Off when you book more than three nights! <span>More Details.</span></p>
+    </div>
 
-        <!----       navigation bar    ---->
+    <!----       //on sale        ---->
 
-        <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand text-dark" href="#">Logo</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <!----       navigation bar    ---->
+
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand text-dark" href="#">Logo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
         </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <div class="container-fluid navigation-button-container">
-                    <div>
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link active-page-indicator" href="#">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle page-button" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hotel Info</a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#">Pictures</a>
-                                    <a class="dropdown-item" href="#">Info & Prices</a>
-                                    <a class="dropdown-item" href="#">Faculties</a>
-                                    <a class="dropdown-item" href="#">Activitys</a>
-                                    <a class="dropdown-item" href="#">Guest reviews</a></a>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link page-button" href="#">Contact Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link page-button" href="#">Book Now</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="search-container">
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control kings-search-box mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="kings-search-button" type="submit">Search</button>
-                    </form>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="container-fluid navigation-button-container">
+                <div>
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link active-page-indicator" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle page-button" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hotel Info</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Pictures</a>
+                                <a class="dropdown-item" href="#">Info & Prices</a>
+                                <a class="dropdown-item" href="#">Faculties</a>
+                                <a class="dropdown-item" href="#">Activitys</a>
+                                <a class="dropdown-item" href="#">Guest reviews</a></a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-button" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link page-button" href="#">Book Now</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </nav>
+            <div class="search-container">
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control kings-search-box mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="kings-search-button" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
 
-        <!----      //navigation bar    ---->
+    <!----      //navigation bar    ---->
 
-        <!----     landing page header    ---->
+    <!----     landing page header    ---->
 
-            <div class="landing-page-container">
-                <div class="landing-wrapper d-flex justify-content-center align-items-end">
-                    <div class="landing-margin">
-                        <div class="d-flex justify-content-center">
-                            <a class="kings-button mb-3 text-light" href="#">Reviews</a>
+
+    <div class="landing-page-container">
+        <div class="landing-background-container align-items-end d-flex">
+            <div class="landing-wrapper">
+                <div class="landing-review d-flex justify-content-center">
+                    <div class="m-0 p-0">
+                        <a class="kings-button m-0 p-0">Reviews</a>
+                        <p class=" m-0 p-0">"The best hotel in the lake district"</p>
+                    </div>
+                </div>
+                <div class="landing-dates-container d-flex justify-content-center align-items-center">
+                    <form class="checkin-form">
+                        <div>
+                            <p>Check-in date</p>
+                            <input type="date">
                         </div>
-                        <P class="text-light">"The best hotel in the lake district"</P>
-                    </div>
-                </div>
-                <div class="landing-checkdates-container">
-                    <form>
-                        <p>Check-in date</p>
-                        <input type="date" name="check-in-date" />
+                        <div>
+                            <p>Nights</p>
+                            <input type="number" placeholder="5">
+                        </div>
+                        <div>
+                            <p>Rooms</p>
+                            <input type="number" placeholder="1">
+                        </div>
+                        <div>
+                            <p>Adults</p>
+                            </p>
+                            <input type="number" placeholder="2">
+                        </div>
+                        <div>
+                            <p>Children</p>
+                            <input type="number" placeholder="2">
+                        </div>
                     </form>
                 </div>
             </div>
+        </div>
+    </div>
 
 
-        <!----     //landing page header    ---->
+    <!----     //landing page header    ---->
 
-        <!----      footer       ---->
+    <!----        windows         ---->
 
-        <footer>
-            <div class="footer ">
-                <div class="row d-flex align-items-center footer-container">
-                    <div class="col-sm-12 col-md-6 col-lg-3 footer-social-container">
-                        <h6 class="d-inline">Join us on social media:</h6>
-                        <i class="fab fa-facebook-square"></i>
-                        <i class="fab fa-pinterest-square"></i>
-                        <i class="fab fa-twitter-square"></i>
-                        <i class="fab fa-instagram"></i>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3 footer-address-container">
-                        <h6 class="m-0">Address:</h6>
-                        <p>30 Beech road, Wath up on dearn</p>
-                        <div class="footer-divider"></div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3 footer-contact-container">
-                        <h6 class="d-inline m-0">Contact us:</h6>
-                        <p class="d-inline">555-4587-895</p>
-                        <div class="footer-divider d-inline"></div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3 footer-buttons-container">
-                        <a class="kings-button footer-buttons">Book Now</a>
-                        <div class="footer-divider d-inline"></div>
-                        <a class="kings-button footer-buttons">Live Chat</a>
-                    </div>
+    <div class="windows-background">
+        <div class="windows"></div>
+    </div>
+
+    <!----        //windows         ---->
+    
+    <!----    video and location section    ---->
+    
+    <div class="my-5 d-flex justify-content-center location-video-section">
+        <section>
+            
+        </section>
+        <div class="m-5"></div>
+        <section>
+            
+        </section>
+    </div>
+    
+    <!----  //video and location section    ---->
+
+    <!----      footer       ---->
+
+    <footer>
+        <div class="footer">
+            <div class="row d-flex align-items-center footer-container">
+                <div class="col-sm-12 col-md-6 col-lg-3 footer-social-container">
+                    <h6 class="d-inline">Join us on social media:</h6>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-pinterest-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 footer-address-container">
+                    <h6 class="m-0">Address:</h6>
+                    <p>30 Beech road, Wath up on dearn</p>
+                    <div class="footer-divider"></div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 footer-contact-container">
+                    <h6 class="d-inline m-0">Contact us:</h6>
+                    <p class="d-inline">555-4587-895</p>
+                    <div class="footer-divider d-inline"></div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 footer-buttons-container">
+                    <a class="kings-button footer-buttons">Book Now</a>
+                    <div class="footer-divider d-inline"></div>
+                    <a class="kings-button footer-buttons">Live Chat</a>
                 </div>
             </div>
-        </footer>
+        </div>
+    </footer>
 
-        <!----      //footer       ---->
-
-    </div>
+    <!----      //footer       ---->
 
     <!----     bootstrap    ---->
 
