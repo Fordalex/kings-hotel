@@ -71,13 +71,13 @@
                 <div class="landing-review d-flex justify-content-center">
                     <div class="main-reviews-button">
                         <a class="kings-button text-light">Reviews</a>
-                        <p class=" m-0 p-0 kings-font landing-review-quote">"The best hotel in the lake district"</p>
+                        <p class=" m-0 p-0 kings-font landing-review-quote">"The best hotel in the lake district!"</p>
                     </div>
                 </div>
 
                 <!----         Check in dates and from         ---->
 
-                <div class="landing-dates-container p-4 d-flex justify-content-center align-items-center">
+                <div class="landing-dates-container p-4 d-flex justify-content-center align-items-center kings-shadow">
                     <form class="checkin-form">
                         <div>
                             <p>Check-in date</p>
@@ -85,23 +85,23 @@
                         </div>
                         <div>
                             <p>Nights</p>
-                            <input type="number" placeholder="5">
+                            <input type="number" min="1" placeholder="5">
                         </div>
                         <div>
                             <p>Rooms</p>
-                            <input type="number" placeholder="1">
+                            <input type="number" min="1" placeholder="1">
                         </div>
                         <div>
                             <p>Adults</p>
                             </p>
-                            <input type="number" placeholder="2">
+                            <input type="number" min="1" placeholder="2">
                         </div>
                         <div>
                             <p>Children</p>
-                            <input type="number" placeholder="2">
+                            <input type="number" min="0" placeholder="2">
                         </div>
                         <div>
-                            <a class="kings-button landing-check-dates">Check Dates</a>
+                            <input type="submit" class="kings-button landing-check-dates text-dark" value="Check Dates">
                         </div>
                     </form>
                 </div>
@@ -116,7 +116,7 @@
 
     <!----        windows         ---->
 
-    <div class="windows-background d-none">
+    <div class="windows-background d-none d-lg-block">
         <div class="windows"></div>
     </div>
 
@@ -124,9 +124,9 @@
 
     <!----    landing video and location section    ---->
 
-    <div class="landing-section-empty"></div>
-    <div class="row m-0 p-0 landing-section-background">
-        <div class="col-10 p-1 offset-1 section-background">
+    <div class="row m-0 landing-section-background kings-shadow">
+        <div class="landing-section-offset s-sm-none"></div>
+        <div class="col-lg-4 p-1 section-background">
             <section>
                 <h2>Welcome</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure laborum veritatis ipsa veniam, tempore officia! Culpa magnam temporibus dolorem ab labore officia iste quas nemo, rerum dolor tempore corporis eligendi.</p>
@@ -134,20 +134,20 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d296926.7939413499!2d-3.257568145915751!3d54.4498658008975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487cc16220357017%3A0x17b57bddea6a7a86!2sLake+District+National+Park!5e0!3m2!1sen!2suk!4v1560935323581!5m2!1sen!2suk" width="100%" height="200px" frameborder="0" style="border:0" allowfullscreen></iframe>
             </section>
         </div>
-        <div class="col-12">
-            <div class="d-none">
+        <div class="landing-hr-container">
+            <div class="d-none d-lg-block">
                 <hr class="vertical-line" />
             </div>
-            <div>
+            <div class="d-lg-none">
                 <hr class="landing-hr"/>
             </div>
         </div>
-        <div class="col-10 p-1 offset-1 section-background">
+        <div class="col-lg-4 p-1 section-background">
             <section>
-                <iframe width="100%" height="180px" src="https://www.youtube.com/embed/botfLXowxVc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="mb-2" width="100%" height="180px" src="https://www.youtube.com/embed/botfLXowxVc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <h5>This is the lake district</h5>
                 <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dicta quo architecto nisi, soluta harum ullam culpa in porro repudiandae.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, sapiente!Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio dicta quo architecto nisi, soluta harum ullam culpa in porro repudiandae.</p>
                 <a class="secondary-color">Learn more</a>
                 <i class="far fa-arrow-alt-circle-up"></i>
             </section>
