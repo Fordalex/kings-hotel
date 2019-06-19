@@ -19,6 +19,10 @@
     background-image:linear-gradient(#BBA724,#d8b92d,#e5cd32);
 }
 
+.kings-font {
+    font-family: 'Pacifico', cursive;
+}
+
 .form-control:focus {
     box-shadow: 0 0 0 0.1rem rgba(229, 255, 0, 0.25);
     border-color: #c5e22f;
@@ -26,6 +30,14 @@
 
 .page {
     height:900px;
+}
+
+.fa-arrow-alt-circle-up {
+    color:#CBAC97;
+}
+
+.secondary-color {
+    color:#CBAC97;
 }
 
 /*    //generic       */
@@ -167,7 +179,7 @@
 
 .landing-review {
     width:100%;
-    height:150px;
+    height:100px;
 }
 
 .main-reviews-button a {
@@ -177,8 +189,10 @@
 }
 
 .main-reviews-button p {
-    color:white;
+    color:#D5DCD1;
 }
+
+/*    //landing page header    */
 
 /*         check in dates and form    */
 
@@ -221,7 +235,7 @@ input[type="date"] {
 
 /*         //check in dates and form    */
 
-/*    //landing page header    */
+
 
 /*     windows      */
 
@@ -248,24 +262,26 @@ input[type="date"] {
 
 /*  landing video and location section  */
 
-.location-video-container {
+.landing-section-empty {
+    height:30px;
     background-color:#F1F1F1;
 }
 
-.location-video-container section {
-    width:30%;
-    background-color:white;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    border-radius: 5px;
+.landing-section-background {
+    background-color:#F1F1F1;
 }
 
-section .location-video-wrapper {
+.landing-section-background div section {
     border:solid #DEDEDE 1px;
-    width:98%;
-    height:97%;
-    padding:15px;
+    padding:10px;
+}
+
+.section-background {
+    border-radius:5px;
+    background-color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
 .vertical-line {
@@ -274,12 +290,14 @@ section .location-video-wrapper {
     background-color:#A2A2A2;
 }
 
-.pictures-more-container {
-    background-color:#F1F1F1;
-    height:70px;
+.landing-hr {
+    width:100%;
 }
 
-
+.pictures-more-container {
+    height:70px;
+    background-color:#F1F1F1;
+}
 
 /* //landing video and location section   */
 
