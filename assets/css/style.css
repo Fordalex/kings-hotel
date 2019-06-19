@@ -301,7 +301,7 @@ input[type="date"] {
 
 .vertical-line {
     width:1px;
-    height:330px;
+    height:540px;
     background-color:#A2A2A2;
 }
 
@@ -311,7 +311,7 @@ input[type="date"] {
 
 .pictures-more-container {
     height:50px;
-    padding-bottom: 30px;
+    padding-bottom: 18px;
     background-color:#F1F1F1;
 }
 
@@ -468,6 +468,9 @@ input[type="date"] {
     }
     .main-reviews-button p {
         font-size: 1.4em;
+    }
+    .pictures-more-container {
+        padding-bottom: 30px;
     }
     .footer {
         height:50px;
