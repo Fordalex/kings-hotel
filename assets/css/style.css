@@ -10,6 +10,7 @@
     display:flex;
     justify-content:center;
     cursor:pointer;
+    font-size:0.9em;
 }
 
 .kings-button:hover {
@@ -272,36 +273,41 @@ input[type="date"] {
 .landing-section-background {
     background-color:#F1F1F1;
     padding:15px;
+    width:100%;
+    height:1128px;
+    display:block;
+    justify-content:center;
 }
 
 .landing-section-background section {
     border:solid #DEDEDE 1px;
     height:100%;
     width:100%;
-    padding:20px;
-    padding-bottom:35px;
-    padding-top:35px;
+    padding:10px;
+    padding-bottom:15px;
+    padding-top:15px;
 }
 
-.landing-section-offset {
-    width:15.2%;
-}
-
-.section-background {
+.l-section-background {
     border-radius:5px;
     background-color:white;
     display:flex;
     align-items:center;
     justify-content:center;
+    padding:5px;
+    width:100%;
+    height: 530px;
+    float: left;
 }
 
 .landing-hr-container {
-    width:100%;
+    width:280px;
+    float:left;
 }
 
 .vertical-line {
     width:1px;
-    height:540px;
+    height:470px;
     background-color:#A2A2A2;
 }
 
@@ -358,6 +364,7 @@ input[type="date"] {
     display:flex;
     justify-content:center;
     padding:5px;
+    align-items:center;
 }
 
 .footer-social-container h6 {
@@ -405,6 +412,46 @@ input[type="date"] {
 
 /*      //footer        */
 
+/*      contact us page   */     
+
+/*     contact us headers  */
+
+.contact-us-header-container {
+    margin:0 auto;
+    width:80%;
+}
+
+.contact-us-header-container h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+}
+
+.contact-us-header-container h5 {
+    font-size: 12px;
+}
+
+/*  //contact us headers  */
+
+/*     contact us form    */
+
+.form-container {
+    width:550px;
+    margin:0 auto;
+    background-color:rgb(230,230,230);
+    border-radius:2px;
+    padding:8px;
+}
+
+.form-control {
+    margin:0px;
+    border:solid darkgray 1px;
+    border-radius:2px;
+}
+
+/*   //contact us form    */
+
+/*      //contact us page   */ 
+
 /*    media queries     */ 
 
 @media (min-width: 376px) {
@@ -425,11 +472,14 @@ input[type="date"] {
 
 @media (min-width: 1200px) {
     p {
-    font-size:0.9em; 
+    font-size:0.7em; 
     }
     .navbar {
-        font-size:0.9em;
-        padding:5px;
+        font-size:0.7em;
+        padding:2px;
+    }
+    .dropdown-item {
+        font-size: 0.7em;
     }
     .navigation-button-container {
         justify-content:center;
@@ -439,6 +489,7 @@ input[type="date"] {
     }
     .kings-search-box {
         height:30px;
+        font-size: 0.85em;
     }
     .landing-review {
         height:180px;
@@ -451,9 +502,16 @@ input[type="date"] {
     }
     .checkin-form input {
         margin-right:30px;
+        font-size:0.8em;
+        padding:3px;
     }
     .landing-section-background {
         padding:30px;
+        height:100%;
+        display:flex;
+    }
+    .l-section-background {
+        width:40%;
     }
     .landing-hr-container {
         width:50px;

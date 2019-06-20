@@ -65,40 +65,89 @@
 
         <!----      //navigation bar    ---->
 
+        <!----          contact us header and sub heading          ---->
 
-        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nisi, sequi deleniti expedita, atque qui labore provident quis a delectus omnis facere officiis doloribus ea quidem dolores totam quasi. Officia praesentium quaerat non enim!
-            Facilis atque non voluptatum sunt ea quaerat dolorem accusantium corporis, tempora, alias eaque! Repellat ullam, iusto.</div>
-        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ducimus officiis mollitia, iste similique libero distinctio perferendis assumenda ratione. Similique facere minima neque voluptatibus nihil natus. Doloremque repudiandae eveniet
-            totam sint, consequuntur autem voluptas quas nesciunt quibusdam, ea, suscipit velit porro, non quisquam enim distinctio vel nobis. Eaque voluptatum, eveniet.</div>
+        <div class="contact-us-header-container">
+            <h2 class="text-center p-2">How can we help?</h2>
+            <h5 class="text-center p-2">Don't be afraid to contact us we'll be happy to answer your question's.</h5>
+        </div>
+
+        <!----          //contact us header and sub heading          ---->
+
+        <!----          contact us form          ---->
+
+        <div class="form-container">
+            <form>
+                <div class="form-row p-2">
+                    <div class="col-2">
+                        <select id="title" name="country" class="form-control" required>
+                <option value="mr">Mr</option>
+                <option value="mrs">Mrs</option>
+                <option value="miss">Miss</option>
+                <option value="ms">Ms</option>
+                <option value="dr">Dr</option>
+            </select>
+                    </div>
+                    <div class="col-5">
+                        <input type="text" name="name" placeholder="First name" class="form-control" required/>
+                    </div>
+                    <div class="col-5">
+                        <input type="text" name="surname" placeholder="Surname" class="form-control" required/>
+                    </div>
+                </div>
+                <div class="form-row p-2">
+                    <div class="col">
+                        <input type="tel" name="tel" placeholder="Phone" class="form-control" required/>
+                    </div>
+                </div>
+                <div class="form-row p-2">
+                    <div class="col">
+                        <input type="email" name="email" placeholder="Email" class="form-control" required/>
+                    </div>
+                </div>
+                <div class="form-row p-2">
+                    <div class="col">
+                        <textarea rows="5" name="message" placeholder="What can we help you with?" class="form-control" required/></textarea>
+                    </div>
+                </div>
+                <div class="form-row p-2">
+                    <div class="col d-flex justify-content-end">
+                        <input type="submit" value="Send" class="kings-button" />
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!----          //contact us form          ---->
 
         <!----      footer       ---->
 
         <footer>
-            <div class="footer ">
-               <div class="row d-flex align-items-center footer-container">
-                   <div class="col-sm-12 col-md-6 col-lg-3 footer-social-container">
-                       <h6 class="d-inline">Join us on social media:</h6>
-                       <i class="fab fa-facebook-square"></i>
-                       <i class="fab fa-pinterest-square"></i>
-                       <i class="fab fa-twitter-square"></i>
-                       <i class="fab fa-instagram"></i>
-                   </div>
-                   <div class="col-sm-12 col-md-6 col-lg-3 footer-address-container">
-                       <h6 class="m-0">Address:</h6>
-                       <p>30 Beech road, Wath up on dearn</p>
-                       <div class="footer-divider"></div>
-                   </div>
-                   <div class="col-sm-12 col-md-6 col-lg-3 footer-contact-container">
-                       <h6 class="d-inline m-0">Contact us:</h6>
-                       <p class="d-inline">555-4587-895</p>
-                       <div class="footer-divider d-inline"></div>
-                   </div>
-                   <div class="col-sm-12 col-md-6 col-lg-3 footer-buttons-container">
-                       <a class="kings-button footer-buttons">Book Now</a>
-                       <div class="footer-divider d-inline"></div>
-                       <a class="kings-button footer-buttons">Live Chat</a>
-                   </div>
-               </div>
+            <div class="footer">
+                <div class="row d-flex align-items-center footer-container">
+                    <div class="col-sm-12 col-md-6 col-lg-3 footer-social-container">
+                        <p class="d-inline m-0 mx-1">Join us on social media:</p>
+                        <i class="fab fa-facebook-square mx-1"></i>
+                        <i class="fab fa-pinterest-square mx-1"></i>
+                        <i class="fab fa-twitter-square mx-1"></i>
+                        <i class="fab fa-instagram mx-1"></i>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 footer-address-container">
+                        <h6 class="m-0">Address:</h6>
+                        <p>30 beech road, wath.</p>
+                        <div class="footer-divider"></div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 footer-contact-container">
+                        <h6 class="d-inline m-0">Contact us:</h6>
+                        <p class="d-inline">555-4587-895</p>
+                        <div class="footer-divider d-inline"></div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 footer-buttons-container">
+                        <a class="kings-button footer-buttons">Book Now</a>
+                        <div class="footer-divider d-inline"></div>
+                        <a class="kings-button footer-buttons">Live Chat</a>
+                    </div>
+                </div>
             </div>
         </footer>
 
