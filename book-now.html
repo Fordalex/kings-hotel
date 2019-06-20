@@ -65,61 +65,167 @@
 
         <!----      //navigation bar    ---->
 
-        <!----          contact us header and sub heading          ---->
+        <div class="content-page-container contactus-background-color">
 
-        <div class="contact-us-header-container">
-            <h2 class="text-center p-2">How can we help?</h2>
-            <h5 class="text-center p-2">Don't be afraid to contact us we'll be happy to answer your question's.</h5>
-        </div>
+            <div>
 
-        <!----          //contact us header and sub heading          ---->
+                <!----        book now header and sub heading       ---->
 
-        <!----          contact us form          ---->
+                <div class="contact-us-header-container">
+                    <h2 class="text-center p-2">Book your stay!</h2>
+                    <h5 class="text-center p-2">Please pick your date's and plan your holiday!</h5>
+                </div>
 
-        <div class="form-container">
-            <form>
-                <div class="form-row p-2">
-                    <div class="col-2">
-                        <select id="title" name="country" class="form-control" required>
+                <!----      //book now header and sub heading       ---->
+
+                <!----           book now section             ---->
+
+                <div class="contactus-form-container">
+                    <div class="page-border">
+                        <form class="checkin-form booknow-dates-wrapper">
+                            <div class="calandar-container-div">
+                                <p>Check-in Date</p>
+                                <input type="date">
+                            </div>
+                            <div class="calandar-container-div">
+                                <p>Check-out Date</p>
+                                <input type="date">
+                            </div>
+                            <hr/>
+                            <div class="number-container-div">
+                                <p>Rooms</p>
+                                <input type="number" min="1" placeholder="1">
+                            </div>
+                            <div class="number-container-div">
+                                <p>Adults</p>
+                                </p>
+                                <input type="number" min="1" placeholder="2">
+                            </div>
+                            <div class="number-container-div">
+                                <p>Children</p>
+                                <input type="number" min="0" placeholder="2">
+                            </div>
+                            <p>max 4 people per room.</p>
+                            <hr/>
+                            <select>
+                            <option value="kings">King's and Queen's</option>
+                            <option value="kings">The Walkers</option>
+                            <option value="kings">The Fearless</option>
+                        </select>
+                            <div class="d-block">
+                                <input type="checkbox">I don't want a package
+                            </div>
+                            <div class="check-out-container">
+                                <section class="page-border">
+                                    <div>
+                                        <ul class="p-0 m-0">
+                                            <li>Room's:</li>
+                                            <li>Cost per night:</li>
+                                            <hr class="check-out-hr">
+                                            <li>Adult's:</li>
+                                            <li>Children:</li>
+                                            <hr class="check-out-hr">
+                                            <li>Total of nights:</li>
+                                            <li>Deal savings:</li>
+                                            <li>Total price:</li>
+                                        </ul>
+                                    </div>
+                                    <div class="float-right d-flex justify-content-end">
+                                        <ul class="p-0 m-0">
+                                            <li>1</li>
+                                            <li>£250.00</li>
+                                            <br class="check-out-br">
+                                            <li>2</li>
+                                            <li>0</li>
+                                            <br class="check-out-br">
+                                            <li>8</li>
+                                            <li>£72.54</li>
+                                            <li>£1927.46</li>
+                                        </ul>
+                                    </div>
+                                </section>
+                            </div>
+                            <div>
+                                <input type="submit" class="kings-button landing-check-dates text-dark" value="Book Now">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!----           //book now section             ---->
+
+            </div>
+
+            <div class="landing-hr-container">
+                <div class="d-none d-lg-block line-wrapper">
+                    <hr class="vertical-line" />
+                </div>
+                <div class="d-lg-none">
+                    <hr class="landing-hr" />
+                </div>
+            </div>
+
+            <div>
+
+                <!----          contact us header and sub heading          ---->
+
+                <div class="contact-us-header-container">
+                    <h2 class="text-center p-2">How can we help?</h2>
+                    <h5 class="text-center p-2">Don't be afraid to contact us we'll be happy to answer your question's.</h5>
+                </div>
+
+                <!----          //contact us header and sub heading          ---->
+
+                <!----          contact us form          ---->
+
+                <div class="contactus-form-container">
+                    <div class="page-border">
+                        <form>
+                            <div class="form-row p-2">
+                                <div class="col-2">
+                                    <select id="title" name="country" class="form-control" required>
                 <option value="mr">Mr</option>
                 <option value="mrs">Mrs</option>
                 <option value="miss">Miss</option>
                 <option value="ms">Ms</option>
                 <option value="dr">Dr</option>
             </select>
-                    </div>
-                    <div class="col-5">
-                        <input type="text" name="name" placeholder="First name" class="form-control" required/>
-                    </div>
-                    <div class="col-5">
-                        <input type="text" name="surname" placeholder="Surname" class="form-control" required/>
+                                </div>
+                                <div class="col-5">
+                                    <input type="text" name="name" placeholder="First name" class="form-control" required/>
+                                </div>
+                                <div class="col-5">
+                                    <input type="text" name="surname" placeholder="Surname" class="form-control" required/>
+                                </div>
+                            </div>
+                            <div class="form-row p-2">
+                                <div class="col">
+                                    <input type="tel" name="tel" placeholder="Phone" class="form-control" required/>
+                                </div>
+                            </div>
+                            <div class="form-row p-2">
+                                <div class="col">
+                                    <input type="email" name="email" placeholder="Email" class="form-control" required/>
+                                </div>
+                            </div>
+                            <div class="form-row p-2">
+                                <div class="col">
+                                    <textarea rows="5" name="message" placeholder="What can we help you with?" class="form-control" required/></textarea>
+                                </div>
+                            </div>
+                            <div class="form-row p-2">
+                                <div class="col d-flex justify-content-end">
+                                    <input type="submit" value="Send" class="kings-button" />
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
-                <div class="form-row p-2">
-                    <div class="col">
-                        <input type="tel" name="tel" placeholder="Phone" class="form-control" required/>
-                    </div>
-                </div>
-                <div class="form-row p-2">
-                    <div class="col">
-                        <input type="email" name="email" placeholder="Email" class="form-control" required/>
-                    </div>
-                </div>
-                <div class="form-row p-2">
-                    <div class="col">
-                        <textarea rows="5" name="message" placeholder="What can we help you with?" class="form-control" required/></textarea>
-                    </div>
-                </div>
-                <div class="form-row p-2">
-                    <div class="col d-flex justify-content-end">
-                        <input type="submit" value="Send" class="kings-button" />
-                    </div>
-                </div>
-            </form>
+
+                <!----          //contact us form          ---->
+
+            </div>
+
         </div>
-
-        <!----          //contact us form          ---->
-
         <!----      footer       ---->
 
         <footer>

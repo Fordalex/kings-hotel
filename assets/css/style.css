@@ -30,8 +30,9 @@
     border-color: #c5e22f;
 }
 
-.page {
-    height:900px;
+.content-page-container {
+    width:100%;
+    padding:15px;
 }
 
 .fa-arrow-alt-circle-up {
@@ -44,6 +45,15 @@
 
 .kings-shadow {
     box-shadow:0px 0px 6px 6px rgba(0,0,0,0.2);
+}
+
+.page-border {
+    border:solid #DEDEDE 1px;
+    height:100%;
+    width:100%;
+    padding:10px;
+    padding-bottom:15px;
+    padding-top:15px;
 }
 
 /*    //generic       */
@@ -237,9 +247,51 @@ input[type="date"] {
     background-color:#FAFBDA;
 }
 
+/*      book now / container us form    */
+
+.booknow-dates-wrapper input[type="number"] {
+    width:100%;
+    border-radius:2px;
+    border:#707070 solid 1px;
+    background-color:#FAFBDA;
+}
+
+.booknow-dates-wrapper input[type="date"] {
+    width:100%;
+    border-radius:2px;
+    border:#707070 solid 1px;
+    background-color:#FAFBDA;
+}
+
+.calandar-container-div {
+    width:100%;
+}
+
+.number-container-div {
+    width:32%;
+}
+
 .landing-check-dates {
     margin-left: 25px;
 }
+
+.check-out-container div {
+    width:49%;
+    display:inline-block;
+}
+
+.check-out-container ul {
+    list-style-type:none;
+}
+
+.check-out-hr {
+    width:220px;
+}
+.check-out-br {
+    line-height:2.15;
+}
+
+/*      //book now / container us form    */
 
 /*         //check in dates and form    */
 
@@ -279,15 +331,6 @@ input[type="date"] {
     justify-content:center;
 }
 
-.landing-section-background section {
-    border:solid #DEDEDE 1px;
-    height:100%;
-    width:100%;
-    padding:10px;
-    padding-bottom:15px;
-    padding-top:15px;
-}
-
 .l-section-background {
     border-radius:5px;
     background-color:white;
@@ -305,9 +348,13 @@ input[type="date"] {
     float:left;
 }
 
+.line-wrapper {
+    height:100%;
+}
+
 .vertical-line {
     width:1px;
-    height:470px;
+    height:90%;
     background-color:#A2A2A2;
 }
 
@@ -434,10 +481,13 @@ input[type="date"] {
 
 /*     contact us form    */
 
-.form-container {
-    width:550px;
-    margin:0 auto;
-    background-color:rgb(230,230,230);
+.contactus-background-color {
+    background-color:#D2D2D2;
+}
+
+.contactus-form-container {
+    width:100%;
+    background-color:white;
     border-radius:2px;
     padding:8px;
 }
@@ -548,6 +598,20 @@ input[type="date"] {
         justify-content:flex-end;
         padding:0;
     }
+/*          book now page       */
+
+    .contactus-background-color {
+        padding-left:10px;
+        padding-right:10px;
+    }
+
+    .content-page-container {
+        display:flex;
+        justify-content:center;
+    }
+
+/*          book now page       */
+    
 }
 
 /*    //media queries     */ 
