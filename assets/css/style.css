@@ -175,13 +175,13 @@
 
 .landing-page-container {
     height: 90vh;
-    background: url("../images/main-background.png")no-repeat center; 
+    background: url("../images/main-background-image-mobile.png")no-repeat center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     z-index: -10;
-    bottom:100px;
+    background-position:0% 20%;
 }
 
 .landing-background-container {
@@ -195,7 +195,7 @@
 
 .landing-review {
     width:100%;
-    height:100px;
+    height:80px;
 }
 
 .main-reviews-button a {
@@ -215,7 +215,7 @@
 
 .landing-dates-container {
     width:100%;
-    height:120px;
+    height:130px;
     background-color:white;
     border-radius:10px 10px 0px 0px;
     border:solid #7A873E 1px;
@@ -258,13 +258,14 @@ input[type="date"] {
 
 .booknow-dates-wrapper input[type="date"] {
     width:100%;
+    display:inline-block;
     border-radius:2px;
     border:#707070 solid 1px;
     background-color:#FAFBDA;
 }
 
 .calandar-container-div {
-    width:100%;
+    width:49%;
 }
 
 .number-container-div {
@@ -326,7 +327,6 @@ input[type="date"] {
     background-color:#F1F1F1;
     padding:15px;
     width:100%;
-    height:1128px;
     display:block;
     justify-content:center;
 }
@@ -334,22 +334,19 @@ input[type="date"] {
 .l-section-background {
     border-radius:5px;
     background-color:white;
-    display:flex;
+    display:block;
     align-items:center;
     justify-content:center;
     padding:5px;
     width:100%;
-    height: 530px;
-    float: left;
-}
-
-.landing-hr-container {
-    width:280px;
-    float:left;
 }
 
 .line-wrapper {
     height:100%;
+}
+
+.vertical-line-wrapper {
+    display:none;
 }
 
 .vertical-line {
@@ -487,9 +484,13 @@ input[type="date"] {
 
 .contactus-form-container {
     width:100%;
-    background-color:white;
+    background-color:rgba(255,255,255,0.9);
     border-radius:2px;
     padding:8px;
+}
+
+.booknow-title-container {
+    height:220px;
 }
 
 .form-control {
@@ -497,6 +498,7 @@ input[type="date"] {
     border:solid darkgray 1px;
     border-radius:2px;
 }
+
 
 /*   //contact us form    */
 
@@ -520,9 +522,38 @@ input[type="date"] {
     }
 }
 
+@media (min-width: 930px) {
+    .landing-page-container {
+        background: url("../images/main-background.png")no-repeat center;
+        background-size:cover;
+    }
+    .landing-section-background {
+        display:flex;
+    }
+    .landing-divider-container {
+        width:30px;
+        display:flex;
+        justify-content:center;
+    }
+    .vertical-line-wrapper {
+        
+    }
+    .l-section-background {
+        display:inline-block;
+        width:40%;
+    }
+    .landing-hr-container {
+        width:40px;
+    }
+    .vertical-line-wrapper {
+        height:100%;
+        display:inline-block;
+    }
+}
+
 @media (min-width: 1200px) {
     p {
-    font-size:0.7em; 
+        font-size:0.7em; 
     }
     .navbar {
         font-size:0.7em;
@@ -554,17 +585,6 @@ input[type="date"] {
         margin-right:30px;
         font-size:0.8em;
         padding:3px;
-    }
-    .landing-section-background {
-        padding:30px;
-        height:100%;
-        display:flex;
-    }
-    .l-section-background {
-        width:40%;
-    }
-    .landing-hr-container {
-        width:50px;
     }
     iframe {
         height:300px;
@@ -601,18 +621,27 @@ input[type="date"] {
 /*          book now page       */
 
     .contactus-background-color {
-        padding-left:10px;
-        padding-right:10px;
+        padding-left:140px;
+        padding-right:140px;
+        background:url("../images/contact-page.png")no-repeat center;
+        background-size:cover;
+        background-position:0% 95%;
+        height:90vh;
     }
 
     .content-page-container {
         display:flex;
         justify-content:center;
     }
+    .desktop-container {
+        width:49%;
+        display:inline-block;
+    }
+}
 
 /*          book now page       */
     
-}
+
 
 /*    //media queries     */ 
 
