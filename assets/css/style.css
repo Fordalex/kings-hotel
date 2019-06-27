@@ -364,7 +364,7 @@ input[type="date"] {
 
 /*  //  picture section       */
 
-/*      rating title container top    */
+/*    log rating section  */
 
 /* colours */
 
@@ -394,6 +394,60 @@ input[type="date"] {
 
 /* //colours */
 
+/*    log rating style  */
+
+.rating-background-image {
+    background:url("../images/ratings-background.jpg");
+    background-size:cover;
+}
+
+.top-rating-container {
+    
+}
+
+.rating-container {
+    display: inline-block;
+    margin:19px;
+}
+
+.rating-wrapper {
+    width:70px;
+    height:70px;
+    background-image: url("../images/log-ratings.png");
+    background-size:cover;
+    border-radius: 50%;
+    overflow: hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    box-shadow: 4px 4px 14px rgb(120,120,120);
+}
+
+.rating-indicator {
+    position: relative;
+}
+
+.rating-percent {
+    position: absolute;
+    border-radius:50%;
+    width:55px;
+    height:55px;
+    z-index:5;
+    background-color:brown;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.rating-percent p {
+    color:black;
+    font-size: 20px;
+}
+
+/*  // log rating style   */ 
+
+/*      rating title container top    */
+
 .rating-title-container-top {
     height: 55px;
     background-color: white;
@@ -407,16 +461,10 @@ input[type="date"] {
     margin-left:16px;
 }
 
-
-
 /*  //  rating title container top    */
 
 /*      rating indicators top       */
 
-.rating-background-image {
-    background:url("../images/ratings-background.jpg");
-    background-size:cover;
-}
 
 /*   // rating indicators top       */
 
@@ -440,6 +488,8 @@ input[type="date"] {
 /*      rating indicators bottom   (Mobile only)    */
 
 /*   // rating indicators bottom   (Mobile only)    */
+
+/*   //  log rating section  */
 
 /*  --------- //(hotel-info.html)  ---------   */
 
