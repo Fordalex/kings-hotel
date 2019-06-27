@@ -420,7 +420,7 @@ input[type="date"] {
     display:flex;
     justify-content:center;
     align-items:center;
-    box-shadow: 4px 4px 14px rgb(120,120,120);
+    box-shadow: 4px 4px 14px rgb(50,50,50);
 }
 
 .rating-indicator {
@@ -433,15 +433,17 @@ input[type="date"] {
     width:55px;
     height:55px;
     z-index:5;
-    background-color:brown;
+    background-color:#f0d7bd;
     display:flex;
     justify-content:center;
     align-items:center;
 }
 
 .rating-percent p {
+    font-family: 'Pacifico', cursive;
     color:black;
     font-size: 20px;
+    margin-bottom:8px;
 }
 
 /*  // log rating style   */ 
@@ -459,6 +461,10 @@ input[type="date"] {
     margin-top: 15px;
     margin-right:16px;
     margin-left:16px;
+}
+
+.desktop-only {
+    display:none;    
 }
 
 /*  //  rating title container top    */
@@ -490,6 +496,32 @@ input[type="date"] {
 /*   // rating indicators bottom   (Mobile only)    */
 
 /*   //  log rating section  */
+
+/*    information and prices    */
+
+.information-page-overlay-border-mobile {
+    background-color:#F7F8F5;
+    border-top:solid #7A873E 1px;
+    border-radius: 10px 10px 0px 0px;
+    height:15px;
+    position:relative;
+    top:1px;
+}
+
+.information-page-container {
+    background-color:#F7F8F5;
+}
+
+.information-background-style div {
+    background-color:white;
+    border:solid #DEDEDE 1px;
+}
+
+.information-hr {
+    color:#BBA724;
+}
+
+/*   // information and prices   */
 
 /*  --------- //(hotel-info.html)  ---------   */
 
@@ -616,10 +648,22 @@ input[type="date"] {
     .landing-dates-container {
         height: 70px;
     }
-
     /*  -----  //(indexo.html)   ------ */
+    
 }
 
+@media (min-width: 640px) {
+    /* ----- (hotel-info.html)   ------ */
+    .desktop-only {
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .mobile-only {
+        display:none;
+    }
+    /* ----- // (hotel-info.html)   ------ */
+}
 
 @media (min-width: 768px) {
     /*  -----  (index.html)   ------ */
@@ -627,6 +671,7 @@ input[type="date"] {
         margin-right: 30px;
     }
     /*  ----- // (index.html)   ------ */
+    
     /*     footer      */
     .footer {
         height: 95px;
@@ -643,7 +688,6 @@ input[type="date"] {
         padding-left: 40px;
         padding-right: 40px;
     }
-
     .half-section-wrapper {
         display: inline-block;
         width: 40%;
@@ -664,7 +708,7 @@ input[type="date"] {
     }
 
     .picture-wrapper {
-        width: 30%;
+        width: 31.25%;
         margin: 7px;
     }
     .desktop-view-picture {
