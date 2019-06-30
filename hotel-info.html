@@ -111,20 +111,19 @@
             <!----        rating title container top     ---->
 
             <div class="rating-title-container-top">
-                <div class="rating-title-wrapper-left d-flex justify-content-center align-items-center">
+                <div class="rating-title-wrapper-left d-flex justify-content-around align-items-center">
                     <h5 class="rating-color--staff">Staff</h5>
                     <h5 class="rating-color--comfort">Comfort</h5>
                     <h5 class="rating-color--cleanliness">Cleanliness</h5>
-                    <div class="desktop-only">
-                        <h5 class="rating-color--wifi">Wifi</h5>
-                        <h5 class="rating-color--location">Location</h5>
-                        <h5 class="rating-color--faculties">Faculties</h5>
-                    </div>
+
+                    <!----   rating title container top (desktop only)    ---->
+
+                    <h5 class="rating-color--wifi desktop-only">Wifi</h5>
+                    <h5 class="rating-color--location desktop-only">Location</h5>
+                    <h5 class="rating-color--faculties desktop-only">Faculties</h5>
                 </div>
             </div>
         </div>
-
-        <!----   rating title container top (desktop only)    ---->
 
         <!---- // rating title container top (desktop only)    ---->
 
@@ -134,7 +133,7 @@
 
         <div class="rating-background-image">
 
-            <div class="top-rating-container d-flex justify-content-center align-items-center">
+            <div class="top-rating-container d-flex justify-content-around align-items-center">
                 <div class="rating-container ">
                     <div class="rating-wrapper">
                         <svg class="rating-indicator" width="300" height="200">
@@ -168,51 +167,52 @@
                         </div>
                     </div>
                 </div>
-                <div class="desktop-only">
-                    <div class="bottom-rating-container d-flex justify-content-center align-items-center">
-                        <div class="rating-container ">
-                            <div class="rating-wrapper">
-                                <svg class="rating-indicator" width="300" height="200">
+
+                <!----       rating indicators top  (desktop only)       ---->
+
+                <div class="rating-container desktop-only">
+                    <div class="rating-wrapper">
+                        <svg class="rating-indicator" width="300" height="200">
                     <polygon points="38,50  0,70  38,100"style="fill:#8B7A68;stroke:black;stroke-width:2;"/>
                         Sorry, your browser does not support inline SVG.
                     </svg>
-                                <div class="rating-percent">
-                                    <p>87.5%</p>
-                                </div>
-                            </div>
+                        <div class="rating-percent">
+                            <p>87.5%</p>
                         </div>
-                        <div class="rating-container">
-                            <div class="rating-wrapper">
-                                <svg class="rating-indicator" width="300" height="200">
+                    </div>
+                </div>
+                <div class="rating-container desktop-only">
+                    <div class="rating-wrapper">
+                        <svg class="rating-indicator" width="300" height="200">
                     <polygon points="38,50  0,70  38,100"style="fill:#EEB071;stroke:black;stroke-width:2;"/>
                         Sorry, your browser does not support inline SVG.
                     </svg>
-                                <div class="rating-percent">
-                                    <p>87.5%</p>
-                                </div>
-                            </div>
+                        <div class="rating-percent">
+                            <p>87.5%</p>
                         </div>
-                        <div class="rating-container ">
-                            <div class="rating-wrapper">
-                                <svg class="rating-indicator" width="300" height="200">
+                    </div>
+                </div>
+                <div class="rating-container desktop-only">
+                    <div class="rating-wrapper">
+                        <svg class="rating-indicator" width="300" height="200">
                     <polygon points="38,50  0,70  38,100"style="fill:#B87836;stroke:black;stroke-width:2;"/>
                         Sorry, your browser does not support inline SVG.
                     </svg>
-                                <div class="rating-percent">
-                                    <p>87.5%</p>
-                                </div>
-                            </div>
+                        <div class="rating-percent">
+                            <p>87.5%</p>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!----      // rating indicators top  (desktop only)       ---->
 
             <!----      // rating indicators top         ---->
 
             <!----        rating title container bottom  (Mobile only)   ---->
             <div class="mobile-only">
                 <div class="rating-title-container-bottom">
-                    <div class="rating-title-wrapper-bottom d-flex justify-content-center align-items-center">
+                    <div class="rating-title-wrapper-bottom d-flex justify-content-around align-items-center">
                         <h5 class="rating-color--wifi">Wifi</h5>
                         <h5 class="rating-color--location">Location</h5>
                         <h5 class="rating-color--faculties">Faculties</h5>
@@ -223,7 +223,7 @@
 
                 <!----         rating indicators bottom    (Mobile only)     ---->
 
-                <div class="bottom-rating-container d-flex justify-content-center align-items-center">
+                <div class="bottom-rating-container d-flex justify-content-around align-items-center">
                     <div class="rating-container ">
                         <div class="rating-wrapper">
                             <svg class="rating-indicator" width="300" height="200">
@@ -267,17 +267,106 @@
 
         <div id="information-page" class="information-page-container">
             <div class="row container-fluid m-0 p-0">
-                <div class="col-sm-12 col-lg-4 information-background-style">
-                    <div class="m-2">h</div>
-                    <div class="m-2">h</div>
-                    <hr class="information-hr">
+
+                <div class="col-sm-12 col-lg-4">
+                    <div class="d-flex justify-content-center">
+                        <div class="top-information-container">
+                            <div class="m-2 p-2 information-background-style">
+                                <h3 class="text-center text-underline">Faculties</h3>
+                                <div class="d-flex justify-content-center mx-5">
+                                    <ul class="my-4">
+                                        <li>10 Smooke-free guest rooms</li>
+                                        <li>Restaurant and bar/lounge</li>
+                                        <li>Terrace</li>
+                                        <li>Daily housekeeping</li>
+                                    </ul>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <a>Show More</a>
+                                    <i class="far fa-arrow-alt-circle-up"></i>
+                                </div>
+                            </div>
+                            <div class="m-2 p-2 information-background-style">
+                                <h3 class="text-center">Feel at home</h3>
+                                <div class="d-flex justify-content-center mx-5">
+                                    <ul class="my-4">
+                                        <li>Private bathroom</li>
+                                        <li>Free toiletries</li>
+                                        <li>Terrace</li>
+                                        <li>Hair dryer</li>
+                                        <li>Blackout drapes/curtains</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="information-hr d-lg-none">
                 </div>
-                <div class="col-sm-12 col-lg-4 information-background-style">
-                    <div class="m-2">h</div>
-                    <hr class="information-hr">
+                <div class="col-sm-12 col-lg-4 information-vertical-border">
+                    <div class="d-flex justify-content-center">
+                        <div class="m-2 p-2 information-background-style">
+                            <h3 class="text-center">Landmarks</h3>
+                            <ul class="landmarks-list">
+                                <li>In a national park</li>
+                                <li>Derwent Water (34-minute walk)</li>
+                                <li>Keswick Museum and Art Gallery (3-minute walk)</li>
+                                <li>Hope Park (9-minute walk)</li>
+                                <li>Cumberland Pencil Museum (9-minute walk)</li>
+                                <li>Theatre By The Lake (11-minute walk)</li>
+                                <li>Crosthwaite Church (18-minute walk)</li>
+                                <li>Castlerigg Stone Circle (32-minute walk)</li>
+                            </ul>
+                            <a>Show more</a>
+                            <i class="far fa-arrow-alt-circle-up"></i>
+                        </div>
+                    </div>
+                    <hr class="information-hr d-lg-none">
                 </div>
-                <div class="col-sm-12 col-lg-4 information-background-style">
-                    <div class="m-2">h</div>
+                <div class="col-sm-12 col-lg-4">
+                    <div class="d-flex justify-content-center">
+                        <div class="m-2 p-2 information-background-style" style="border-top:solid #8F8436 5px">
+                            <h3 class="text-center">Room Cost<br>£250.00</h3>
+                            <hr>
+                            <p class="my-4">Please take a look to see which days are available for your 'Holiday'</p>
+                            <div>
+                                <div class="d-inline-block">
+                                    <h5>Check-in date:</h5>
+                                    <input type="date">
+                                </div>
+                                <div class="d-inline-block">
+                                    <h5>Package:</h5>
+                                    <select>
+                            <option value="kings">King's and Queen's</option>
+                            <option value="walkers">The Walkers</option>
+                            <option value="fearless">The Fearless</option>
+                        </select>
+                                </div>
+                            </div>
+                            <div class="d-inline-block">
+                                <h5>Check-out date:</h5>
+                                <input type="date">
+                            </div>
+                            I don't want a package
+                            <input type="checkbox">
+                            <div>
+                                <div class="d-inline-block">
+                                    <h5>Rooms:</h5>
+                                    <input type="number" min="1" placeholder="1">
+                                </div>
+                                <div class="d-inline-block">
+                                    <h5>Adults:</h5>
+                                    <input type="number" min="1" placeholder="2">
+                                </div>
+                                <div class="d-inline-block">
+                                    <h5>Children:</h5>
+                                    <input type="number" min="1" placeholder="1">
+                                </div>
+                                <div class="d-inline-block">
+                                    <a class="kings-button">Book Now!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

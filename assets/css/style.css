@@ -48,6 +48,7 @@ body {
     justify-content: center;
     cursor: pointer;
     font-size: 0.9em;
+    width: 100px;
 }
 
 .kings-button:hover {
@@ -62,16 +63,28 @@ body {
     font-family: 'Pacifico', cursive;
 }
 
+.kings-shadow {
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
 /*  //king style button    */
 
 /*   icons    */
 
 .fa-map-marker-alt {
     font-size: 18px;
-    color:gray;
+    color: gray;
 }
 
 /*  // icons    */
+
+/*  modal  */
+
+.modal-style {
+    border-top: solid 5px green;
+}
+
+/*  // modal  */
 
 /*   //generic    */
 
@@ -91,6 +104,14 @@ body {
 
 .on-sale span {
     color: #379BFF;
+}
+
+.on-sale:hover {
+    background-color: white;
+}
+
+.on-sale:hover .on-sale p {
+    color: black;
 }
 
 /*      //on sale       */
@@ -318,14 +339,14 @@ input[type="date"] {
 
 .picture-section-background {
     background: url("../images/hotel-info-pictures-background.jpg")no-repeat;
-    background-size:cover:;
+    background-size: cover;
 }
 
 .picture-section-height {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .picture-container {
@@ -354,12 +375,10 @@ input[type="date"] {
     display: none;
 }
 
-.pictures-view-on-map {
-
-}
+.pictures-view-on-map {}
 
 .picture-background-overlay-empty {
-    height:5px;
+    height: 5px;
 }
 
 /*  //  picture section       */
@@ -369,27 +388,27 @@ input[type="date"] {
 /* colours */
 
 .rating-color--staff {
-    color:#CF863C;
+    color: #CF863C;
 }
 
 .rating-color--comfort {
-    color:#FFB56A;
+    color: #FFB56A;
 }
 
 .rating-color--cleanliness {
-    color:#CE5756;
+    color: #CE5756;
 }
 
 .rating-color--wifi {
-    color:#8B7A68;
+    color: #8B7A68;
 }
 
 .rating-color--location {
-    color:#EEB071;
+    color: #EEB071;
 }
 
 .rating-color--faculties {
-    color:#B87836;
+    color: #B87836;
 }
 
 /* //colours */
@@ -397,30 +416,29 @@ input[type="date"] {
 /*    log rating style  */
 
 .rating-background-image {
-    background:url("../images/ratings-background.jpg");
-    background-size:cover;
+    background: url("../images/ratings-background.jpg");
+    background-size: cover;
 }
 
-.top-rating-container {
-    
-}
+.top-rating-container {}
 
 .rating-container {
     display: inline-block;
-    margin:19px;
+    margin: 19px;
 }
 
 .rating-wrapper {
-    width:70px;
-    height:70px;
+    width: 70px;
+    height: 70px;
     background-image: url("../images/log-ratings.png");
-    background-size:cover;
+    background-size: cover;
     border-radius: 50%;
     overflow: hidden;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    box-shadow: 4px 4px 14px rgb(50,50,50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 14px rgb(50, 50, 50);
+    border: solid #ffecc7 0.4px;
 }
 
 .rating-indicator {
@@ -429,48 +447,47 @@ input[type="date"] {
 
 .rating-percent {
     position: absolute;
-    border-radius:50%;
-    width:55px;
-    height:55px;
-    z-index:5;
-    background-color:#f0d7bd;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    z-index: 5;
+    background-color: #f0d7bd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .rating-percent p {
     font-family: 'Pacifico', cursive;
-    color:black;
+    color: black;
     font-size: 20px;
-    margin-bottom:8px;
+    margin-bottom: 8px;
 }
 
-/*  // log rating style   */ 
+/*  // log rating style   */
 
 /*      rating title container top    */
 
 .rating-title-container-top {
     height: 55px;
     background-color: white;
-    border:solid #7A873E 1px;
+    border: solid #7A873E 1px;
     border-radius: 10px 10px 0px 0px;
 }
 
 .rating-title-container-top h5 {
     margin-top: 15px;
-    margin-right:16px;
-    margin-left:16px;
+    margin-right: 16px;
+    margin-left: 16px;
 }
 
 .desktop-only {
-    display:none;    
+    display: none;
 }
 
 /*  //  rating title container top    */
 
 /*      rating indicators top       */
-
 
 /*   // rating indicators top       */
 
@@ -479,14 +496,14 @@ input[type="date"] {
 .rating-title-container-bottom {
     height: 55px;
     background-color: white;
-    border:solid #7A873E 1px;
+    border: solid #7A873E 1px;
     border-radius: 10px 10px 10px 10px;
 }
 
 .rating-title-container-bottom h5 {
     margin-top: 15px;
-    margin-right:16px;
-    margin-left:16px;
+    margin-right: 16px;
+    margin-left: 16px;
 }
 
 /*  //  rating title container bottom  (Mobile only)  */
@@ -500,25 +517,39 @@ input[type="date"] {
 /*    information and prices    */
 
 .information-page-overlay-border-mobile {
-    background-color:#F7F8F5;
-    border-top:solid #7A873E 1px;
+    background-color: #F7F8F5;
+    border-top: solid #7A873E 1px;
     border-radius: 10px 10px 0px 0px;
-    height:15px;
-    position:relative;
-    top:1px;
+    height: 45px;
+    position: relative;
+    top: 1px;
 }
 
 .information-page-container {
-    background-color:#F7F8F5;
+    background-color: #F7F8F5;
 }
 
-.information-background-style div {
-    background-color:white;
-    border:solid #DEDEDE 1px;
+.top-information-container {
+    display: inline-block;
+}
+
+.information-background-style {
+    background-color: white;
+    border: solid #DEDEDE 1px;
+    max-width: 370px;
 }
 
 .information-hr {
-    color:#BBA724;
+    background-color: #BBA724;
+}
+
+.information-vertical-border {
+    border-right: none;
+    border-left: none;
+}
+
+.landmarks-list {
+    line-height: 2.3em;
 }
 
 /*   // information and prices   */
@@ -649,20 +680,26 @@ input[type="date"] {
         height: 70px;
     }
     /*  -----  //(indexo.html)   ------ */
-    
 }
 
 @media (min-width: 640px) {
     /* ----- (hotel-info.html)   ------ */
     .desktop-only {
-        display:flex;
-        justify-content:center;
-        align-items:center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
     .mobile-only {
-        display:none;
+        display: none;
     }
     /* ----- // (hotel-info.html)   ------ */
+}
+
+@media (min-width: 670px) {
+    .top-information-container {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media (min-width: 768px) {
@@ -671,7 +708,6 @@ input[type="date"] {
         margin-right: 30px;
     }
     /*  ----- // (index.html)   ------ */
-    
     /*     footer      */
     .footer {
         height: 95px;
@@ -740,6 +776,16 @@ input[type="date"] {
         background-position: 43% 50%;
     }
     /*  ------ // (index.html) ------ */
+    /*  ------ (hotel-inf0) ------ */
+    .top-information-container {
+        display: inline-block;
+    }
+    .information-vertical-border {
+        border-right: solid green 1px;
+        border-left: solid green 1px;
+    }
+
+    /*  ------ //(hotel-inf0) ------ */
 }
 
 @media (min-width: 1200px) {
