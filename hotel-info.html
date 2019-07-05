@@ -110,7 +110,7 @@
 
             <!----        rating title container top     ---->
 
-            <div class="rating-title-container-top">
+            <div id="information-page" class="rating-title-container-top">
                 <div class="rating-title-wrapper-left d-flex justify-content-around align-items-center">
                     <h5 class="rating-color--staff">Staff</h5>
                     <h5 class="rating-color--comfort">Comfort</h5>
@@ -266,139 +266,15 @@
 
         <!----        informaion and prices      ---->
 
-        <div id="information-page" class="information-page-container">
-            <div class="row container-fluid m-0 p-0 pb-5">
-
-                <!----         faulties section             ---->
-
-                <div class="col-sm-12 col-lg-4">
-                    <div class="d-flex justify-content-center">
-                        <div class="top-information-container">
-                            <div class="m-2 p-2 information-background-style">
-                                <h3 class="text-center text-underline">Faculties</h3>
-                                <div class="d-flex justify-content-center mx-5">
-                                    <ul class="my-4">
-                                        <li>10 Smooke-free guest rooms</li>
-                                        <li>Restaurant and bar/lounge</li>
-                                        <li>Terrace</li>
-                                        <li>Daily housekeeping</li>
-                                    </ul>
-                                </div>
-                                <div class="d-flex justify-content-center">
-                                    <a>Show More</a>
-                                    <i class="far fa-arrow-alt-circle-up"></i>
-                                </div>
-                            </div>
-
-                            <!----        // faulties section             ---->
-
-                            <!----           feel at home section             ---->
-
-                            <div class="m-2 p-2 information-background-style">
-                                <h3 class="text-center">Feel at home</h3>
-                                <div class="d-flex justify-content-center mx-5">
-                                    <ul class="my-4">
-                                        <li>Private bathroom</li>
-                                        <li>Free toiletries</li>
-                                        <li>Terrace</li>
-                                        <li>Hair dryer</li>
-                                        <li>Blackout drapes/curtains</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <hr class="information-hr d-lg-none">
-
-                    <!----           //feel at home section           ---->
-
-                    <!----          landmarks section           ---->
-
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 information-vertical-border">
-                    <div class="d-flex justify-content-center">
-                        <div class="m-2 p-2 information-background-style">
-                            <h3 class="text-center">Landmarks</h3>
-                            <ul class="landmarks-list">
-                                <li>In a national park</li>
-                                <li>Derwent Water (34-minute walk)</li>
-                                <li>Keswick Museum and Art Gallery (3-minute walk)</li>
-                                <li>Hope Park (9-minute walk)</li>
-                                <li>Cumberland Pencil Museum (9-minute walk)</li>
-                                <li>Theatre By The Lake (11-minute walk)</li>
-                                <li>Crosthwaite Church (18-minute walk)</li>
-                                <li>Castlerigg Stone Circle (32-minute walk)</li>
-                            </ul>
-                            <a>Show more</a>
-                            <i class="far fa-arrow-alt-circle-up"></i>
-                        </div>
-                    </div>
-
-                    <!----          //landmarks section           ---->
-
-                    <hr class="information-hr d-lg-none">
-
-                    <!----          cost per room section           ---->
-
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <div class="d-flex justify-content-center">
-                        <div class="m-2 p-2 information-background-style" style="border-top:solid #8F8436 5px">
-                            <h3 class="text-center">Room Cost<br>£250.00</h3>
-                            <hr>
-                            <p class="my-4">Please take a look to see which days are available for your 'Holiday'</p>
-                            <div>
-                                <div class="d-inline-block">
-                                    <h5>Check-in date:</h5>
-                                    <input type="date">
-                                </div>
-                                <div class="d-inline-block">
-                                    <h5>Package:</h5>
-                                    <select>
-                            <option value="kings">King's and Queen's</option>
-                            <option value="walkers">The Walkers</option>
-                            <option value="fearless">The Fearless</option>
-                        </select>
-                                </div>
-                            </div>
-                            <div class="d-inline-block">
-                                <h5>Check-out date:</h5>
-                                <input type="date">
-                            </div>
-                            I don't want a package
-                            <input type="checkbox">
-                            <div>
-                                <div class="d-inline-block">
-                                    <h5>Rooms:</h5>
-                                    <input type="number" min="1" placeholder="1">
-                                </div>
-                                <div class="d-inline-block">
-                                    <h5>Adults:</h5>
-                                    <input type="number" min="1" placeholder="2">
-                                </div>
-                                <div class="d-inline-block">
-                                    <h5>Children:</h5>
-                                    <input type="number" min="1" placeholder="1">
-                                </div>
-                                <div class="d-inline-block">
-                                    <a class="kings-button">Book Now!</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!----          //cost per room section           ---->
-
-            </div>
-        </div>
+        
 
         <!----    // informaion and prices      ---->
 
         <!----      packages section       ---->
 
         <!----     King's and queens package section      ---->
-
+        
+    <div class="container-fluid p-0 m-0">
         <div class="row p-0 m-0">
             <div class="col-sm-12 py-3 col-lg-4 kings-package-section-background">
                 <div class="packages-alpha-over">
@@ -418,6 +294,10 @@
                         <h4 class="text-secondary my-2">Meal for two</h4>
                         <p class="text-light">Have a delicious meal for two at the famous ""</p>
                         <a href="#" class="packages-color--gold">Discover</a>
+                        <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
+                    </div>
+                    <div class="mt-4">
+                        <a href="#" class="packages-color--gold">Learn more</a>
                         <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
                     </div>
                 </div>
@@ -446,6 +326,10 @@
                         <a href="#" class="packages-color--gold">Discover</a>
                         <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
                     </div>
+                    <div class="mt-4">
+                            <a href="#" class="packages-color--gold">Learn more</a>
+                            <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
+                        </div>
                 </div>
             </div>
 
@@ -460,7 +344,7 @@
                             your with us you will enjoy the following:</p>
                     <div class="px-3">
                         <h4 class="text-secondary my-2">Townend</h4>
-                        <p class="text-light">Get tour around the Townend and take a step back in time.</p>
+                        <p class="text-light">Get a tour around the Townend and take a step back in time.</p>
                         <a href="#" class="packages-color--gold">Discover</a>
                         <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
                         <h4 class="text-secondary my-2">Boat ride</h4>
@@ -472,9 +356,14 @@
                         <a href="#" class="packages-color--gold">Discover</a>
                         <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
                     </div>
+                    <div class="mt-4">
+                            <a href="#" class="packages-color--gold">Learn more</a>
+                            <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
+                        </div>
                 </div>
             </div>
         </div>
+    </div>
 
         <!----     //the fearless package section      ---->
 

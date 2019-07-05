@@ -525,50 +525,7 @@ input[type="date"] {
 
 /*    information and prices    */
 
-.information-page-overlay-border-mobile {
-    background-color: #F7F8F5;
-    border-top: solid #7A873E 1px;
-    border-radius: 10px 10px 0px 0px;
-    height: 45px;
-    position: relative;
-    top: 1px;
-}
 
-.information-page-overlay-border-desktop {
-    background-color: #F7F8F5;
-    border-top: solid #7A873E 1px;
-    border-radius: 10px 10px 0px 0px;
-    height: 45px;
-    position: relative;
-    top: 1px;
-}
-
-.information-page-container {
-    background-color: #F7F8F5;
-}
-
-.top-information-container {
-    display: inline-block;
-}
-
-.information-background-style {
-    background-color: white;
-    border: solid #DEDEDE 1px;
-    max-width: 370px;
-}
-
-.information-hr {
-    background-color: #BBA724;
-}
-
-.information-vertical-border {
-    border-right: none;
-    border-left: none;
-}
-
-.landmarks-list {
-    line-height: 2.3em;
-}
 
 /*   // information and prices   */
 
@@ -626,7 +583,7 @@ input[type="date"] {
 
 .kings-package-section-background {
     background:url("../images/kings-package-background.png")no-repeat center center;
-    height:650px;
+    height:670px;
     background-size:cover;
     padding:0;
 }
@@ -641,7 +598,7 @@ input[type="date"] {
 
 .walkers-package-section-background {
     background:url("../images/walker-package-background.png")no-repeat center center;
-    height:650px;
+    height:670px;
     background-size:cover;
     padding:0;
     border-top:solid white 1px;
@@ -654,7 +611,7 @@ input[type="date"] {
 
 .fearless-package-section-background {
     background:url("../images/fearless-package-background.png")no-repeat center center;
-    height:650px;
+    height:670px;
     background-size:cover;
     padding:0;
 }
