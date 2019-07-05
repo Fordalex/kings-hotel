@@ -565,7 +565,7 @@ input[type="date"] {
 /*   reviews portion   */
 
 .review-background-page {
-	background:url("paper-background.png")no-repeat center center;
+	background:url("../images/paper-background.png")no-repeat center center;
 	background-size:cover;
 	display:flex;
 	justify-content:center;
@@ -764,7 +764,7 @@ input[type="date"] {
     /*  ----- // (index.html)   ------ */
     /*  -----  (hotel-info.html)  ------ */
     .review-background-page {
-        background:url("reviews-background.png")no-repeat center center;
+        background:url("../images/reviews-background.png")no-repeat center center;
         background-size:cover;
         height:950px;
         }
@@ -857,7 +857,7 @@ input[type="date"] {
 
 @media (min-width: 1190px) {
 	.review-background-page {
-	background:url("reviews-background.png")no-repeat center center;
+	background:url("../images/reviews-background.png")no-repeat center center;
 	background-size:cover;
 	height:1100px;
 	padding-left:100px;
