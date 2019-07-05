@@ -604,9 +604,55 @@ input[type="date"] {
 	width:100%;
 }
 
-
-
 /*   //reviews portion   */
+
+/*     packages section     */
+
+.kings-package-section-background {
+    background:url("../images/kings-package-background.png")no-repeat center center;
+    background-size:cover;
+    padding:0;
+}
+
+.packages-title {
+    text-decoration:underline;
+}
+
+.packages-color--king {
+    color:#F2C7A2;
+}
+
+.walkers-package-section-background {
+    background:url("../images/walker-package-background.png")no-repeat center center;
+    background-size:cover;
+    padding:0;
+}
+
+.packages-color--walkers {
+    color:#EFFFE5;
+}
+
+.fearless-package-section-background {
+    background:url("../images/fearless-package-background.png")no-repeat center center;
+    background-size:cover;
+    padding:0;
+}
+
+.packages-color--fearless {
+    color:#DCEAFF;
+}
+
+.packages-color--gold {
+    color:#E5C352;
+}
+
+.packages-alpha-over {
+    background-color:rgba(0,0,0,0.6);
+    padding:15px;
+    border:solid 1px white;
+}
+
+/*  //packages section  */
 
 /*  --------- //(hotel-info.html)  ---------   */
 
