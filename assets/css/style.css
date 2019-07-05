@@ -524,6 +524,15 @@ input[type="date"] {
     top: 1px;
 }
 
+.information-page-overlay-border-desktop {
+    background-color: #F7F8F5;
+    border-top: solid #7A873E 1px;
+    border-radius: 10px 10px 0px 0px;
+    height: 45px;
+    position: relative;
+    top: 1px;
+}
+
 .information-page-container {
     background-color: #F7F8F5;
 }
