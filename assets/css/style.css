@@ -86,6 +86,12 @@ body {
 
 /*  // modal  */
 
+/*    font    */
+
+
+
+/*   //font   */
+
 /*   //generic    */
 
 /*       on sale       */
@@ -107,7 +113,11 @@ body {
 }
 
 .on-sale:hover {
-    background-color: white;
+    background-color:gold;
+}
+
+.on-sale:hover p {
+    color:black;
 }
 
 .on-sale:hover .on-sale p {
@@ -573,8 +583,14 @@ input[type="date"] {
 	}
 
 .review-container {
-	padding:0px;
+    padding:0px;
+    padding-top: 90px;
 	max-width:800px;
+}
+
+.reviews-title {
+    position:relative;
+    bottom:50px;
 }
 
 .review-image-wrapper--green {
@@ -610,6 +626,7 @@ input[type="date"] {
 
 .kings-package-section-background {
     background:url("../images/kings-package-background.png")no-repeat center center;
+    height:650px;
     background-size:cover;
     padding:0;
 }
@@ -624,8 +641,11 @@ input[type="date"] {
 
 .walkers-package-section-background {
     background:url("../images/walker-package-background.png")no-repeat center center;
+    height:650px;
     background-size:cover;
     padding:0;
+    border-top:solid white 1px;
+    border-bottom:solid white 1px;
 }
 
 .packages-color--walkers {
@@ -634,6 +654,7 @@ input[type="date"] {
 
 .fearless-package-section-background {
     background:url("../images/fearless-package-background.png")no-repeat center center;
+    height:650px;
     background-size:cover;
     padding:0;
 }
@@ -647,9 +668,9 @@ input[type="date"] {
 }
 
 .packages-alpha-over {
-    background-color:rgba(0,0,0,0.6);
+    background-color:rgba(0,0,0,0.85);
     padding:15px;
-    border:solid 1px white;
+    height:100%;
 }
 
 /*  //packages section  */
@@ -658,7 +679,7 @@ input[type="date"] {
 
 /*  ---------   (book-now.html)  ---------   */
 
-.booknow-header-font h2 {
+.second-title-font {
     font-family: Pacifico, cursive;
     font-size: 50px;
 }
@@ -897,6 +918,11 @@ input[type="date"] {
         border-right: solid green 1px;
         border-left: solid green 1px;
     }
+    .walkers-package-section-background {
+        border:none;
+        border-right:solid white 1px;
+        border-left:solid white 1px;
+    }
 
     /*  ------ //(hotel-inf0) ------ */
 }
@@ -938,4 +964,3 @@ input[type="date"] {
 }
 
 /*     //media queries        */
-/**/
