@@ -576,7 +576,7 @@ input[type="date"] {
 
 /*   //  log rating section  */
 
-/*    information and prices    */
+/*    information and prices section    */
 
 /*   layout for the information section    */ 
 
@@ -585,10 +585,19 @@ input[type="date"] {
 }
 
 .information-full-section {
-    height:449px;
+    height:430px;
 }
 
 /*    //layout for the information section    */
+
+/*   landmarks section   */
+
+.landmark-list {
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+/*  //landmarks section   */
 
 /*  cost per night section   */
 
@@ -607,7 +616,7 @@ input[type=date].information-section-date-input {
 
 /*   // cost per night section   */
 
-/*   // information and prices   */
+/*   // information and prices section  */
 
 /*     packages section     */
 
@@ -947,13 +956,17 @@ input[type=date].information-section-date-input {
         margin: 0px 15px;
     }
     /*      //navigation bar     */
-    /*  ------  (index.html) ------ */
-    .landing-page-container {
-        background: url("../images/main-background.png")no-repeat center center;
-        background-position: 43% 50%;
+    /*  ------ (hotel-info) ------ */
+    .information-full-section {
+        height:449px;
     }
-    /*  ------ // (index.html) ------ */
-    /*  ------ (hotel-inf0) ------ */
+    .landmark-list {
+        margin-top:30px;
+        margin-bottom:30px;
+    }
+    .landmark-list li {
+        line-height:1.6;
+    }
     .top-information-container {
         display: inline-block;
     }
@@ -966,8 +979,16 @@ input[type=date].information-section-date-input {
         border-right:solid white 1px;
         border-left:solid white 1px;
     }
+    /*  ------ //(hotel-info) ------ */
+}
 
-    /*  ------ //(hotel-inf0) ------ */
+@media (min-width: 1115px) {
+    /*  ------  (index.html) ------ */
+    .landing-page-container {
+        background: url("../images/main-background.png")no-repeat center center;
+        background-position: 43% 50%;
+    }
+    /*  ------ // (index.html) ------ */
 }
 
 @media (min-width: 1190px) {
