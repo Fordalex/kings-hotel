@@ -114,7 +114,7 @@ The project is ran off github pages, at the top of this readme is a link to the 
 
 ### Acknowledgements
 
-I was inspired by loads of different website for little things:
+1. I was inspired by loads of different website for little things:
 	1. hotel - for what content is needed when book a hotel.
 	2. burj khalifa - Took inspriation form the big background image on the home page.
 	3. best hotel - I liked the way the check dates was one of the first thing that the user saw.
