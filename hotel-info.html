@@ -28,545 +28,560 @@
 
         <!----       navigation bar    ---->
 
-        <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand text-dark" href="#">Logo</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-            </button>
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand text-dark" href="#">Logo</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <div class="container-fluid navigation-button-container">
-                    <div>
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link page-button" href="index.html">Home <span
-                                        class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle active-page-indicator" href="#" id="navbarDropdown"
-                                    role="button" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">Hotel Info</a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#">Pictures</a>
-                                    <a class="dropdown-item" href="#information-page">Info & Prices</a>
-                                    <a class="dropdown-item" href="#packages">Packages</a>
-                                    <a class="dropdown-item" href="#reviews">Guest reviews</a></a>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link page-button" href="book-now.html">Book Now / Contact Us</a>
-                            </li>
-                        </ul>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="container-fluid navigation-button-container">
+                        <div>
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link page-button" href="index.html">Home <span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle active-page-indicator" href="#"
+                                        id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">Hotel Info</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Pictures</a>
+                                        <a class="dropdown-item" href="#information-page">Info & Prices</a>
+                                        <a class="dropdown-item" href="#packages">Packages</a>
+                                        <a class="dropdown-item" href="#reviews">Guest reviews</a></a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link page-button" href="book-now.html">Book Now / Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="search-container">
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control kings-search-box mr-sm-2" type="search" placeholder="Search"
+                                aria-label="Search">
+                            <button class="kings-search-button" type="submit">Search</button>
+                        </form>
                     </div>
                 </div>
-                <div class="search-container">
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control kings-search-box mr-sm-2" type="search" placeholder="Search"
-                            aria-label="Search">
-                        <button class="kings-search-button" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
+            </nav>
+        </header>
 
         <!----      //navigation bar    ---->
 
         <!----      picture section     ---->
 
-        <div class="picture-section-background">
-            <div class="picture-section-height p-3">
-                <div class="picture-container">
-                    <div class="picture-wrapper">
-                        <img src="assets/images/dinning-room.jpg"></img>
-                    </div>
-                    <div class="picture-wrapper ipad-view-picture">
-                        <img src="assets/images/dinning-room.jpg"></img>
-                    </div>
-                    <div class="picture-wrapper ipad-view-picture">
-                        <img src="assets/images/dinning-room.jpg"></img>
-                    </div>
-                    <div class="picture-wrapper ipad-view-picture">
-                        <img src="assets/images/dinning-room.jpg"></img>
-                    </div>
-                    <div class="picture-wrapper ipad-view-picture">
-                        <img src="assets/images/dinning-room.jpg"></img>
-                    </div>
-                    <div class="picture-wrapper ipad-view-picture">
-                        <img src="assets/images/dinning-room.jpg"></img>
-                    </div>
-                    <div class="picture-wrapper desktop-view-picture">
-                        <img src="assets/images/dinning-room.jpg"></img>
-                    </div>
-                    <div class="picture-wrapper desktop-view-picture">
-                        <img src="assets/images/dinning-room.jpg"></img>
-                    </div>
-                    <div class="picture-wrapper desktop-view-picture">
-                        <img src="assets/images/dinning-room.jpg"></img>
-                    </div>
-                </div>
-            </div>
-            <div class="d-flex justify-content-center pictures-view-on-map mt-3 pb-3">
-                <div class="d-flex justify-content-center align-items-center">
-                    <i class="fas fa-map-marker-alt mx-3"></i>
-                    <h5 class="text-secondar m-0">View on map</h5>
-                </div>
-            </div>
-
-            <!----     //picture section     ---->
-
-            <!----        rating title container top     ---->
-
-            <div id="information-page" class="rating-title-container-top">
-                <div class="rating-title-wrapper-left d-flex justify-content-around align-items-center">
-                    <h5 class="rating-color--staff">Staff</h5>
-                    <h5 class="rating-color--comfort">Comfort</h5>
-                    <h5 class="rating-color--cleanliness">Cleanliness</h5>
-
-                    <!----   rating title container top (desktop only)    ---->
-
-                    <h5 class="rating-color--wifi desktop-only">Wifi</h5>
-                    <h5 class="rating-color--location desktop-only">Location</h5>
-                    <h5 class="rating-color--faculties desktop-only">Faculties</h5>
-                </div>
-            </div>
-        </div>
-
-        <!---- // rating title container top (desktop only)    ---->
-
-        <!----      //rating title container top     ---->
-
-        <!----         rating indicators top         ---->
-
-        <div class="rating-background-image">
-
-            <div class="top-rating-container d-flex justify-content-around align-items-center">
-                <div class="rating-container ">
-                    <div class="rating-wrapper">
-                        <svg class="rating-indicator" width="300" height="200">
-                            <polygon points="38,50  0,70  38,100" style="fill:#CF863C;stroke:black;stroke-width:2;" />
-                            Sorry, your browser does not support inline SVG.
-                        </svg>
-                        <div class="rating-percent">
-                            <p>87.5%</p>
+        <main>
+            <section class="picture-section-background">
+                <div class="picture-section-height p-3">
+                    <div class="picture-container">
+                        <div class="picture-wrapper">
+                            <img src="assets/images/attic.png"></img>
+                        </div>
+                        <div class="picture-wrapper ipad-view-picture">
+                            <img src="assets/images/dinning-room.png"></img>
+                        </div>
+                        <div class="picture-wrapper ipad-view-picture">
+                            <img src="assets/images/bedroom-double.png"></img>
+                        </div>
+                        <div class="picture-wrapper ipad-view-picture">
+                            <img src="assets/images/mountains.png"></img>
+                        </div>
+                        <div class="picture-wrapper ipad-view-picture">
+                            <img src="assets/images/bed-bedroom.png"></img>
+                        </div>
+                        <div class="picture-wrapper ipad-view-picture">
+                            <img src="assets/images/kitchen.png"></img>
+                        </div>
+                        <div class="picture-wrapper desktop-view-picture">
+                            <img src="assets/images/boat-daylight.png"></img>
+                        </div>
+                        <div class="picture-wrapper desktop-view-picture">
+                            <img src="assets/images/hills.png"></img>
+                        </div>
+                        <div class="picture-wrapper desktop-view-picture">
+                            <img src="assets/images/burrito-chicken.png"></img>
                         </div>
                     </div>
                 </div>
-                <div class="rating-container">
-                    <div class="rating-wrapper">
-                        <svg class="rating-indicator" width="300" height="200">
-                            <polygon points="38,50  0,70  38,100" style="fill:#FFB56A;stroke:black;stroke-width:2;" />
-                            Sorry, your browser does not support inline SVG.
-                        </svg>
-                        <div class="rating-percent">
-                            <p>87.5%</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="rating-container ">
-                    <div class="rating-wrapper">
-                        <svg class="rating-indicator" width="300" height="200">
-                            <polygon points="38,50  0,70  38,100" style="fill:#CE5756;stroke:black;stroke-width:2;" />
-                            Sorry, your browser does not support inline SVG.
-                        </svg>
-                        <div class="rating-percent">
-                            <p>87.5%</p>
-                        </div>
+                <div class="d-flex justify-content-center pictures-view-on-map mt-3 pb-3">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <i class="fas fa-map-marker-alt mx-3"></i>
+                        <h5 class="text-secondar m-0">View on map</h5>
                     </div>
                 </div>
 
-                <!----       rating indicators top  (desktop only)       ---->
+                <!----     //picture section     ---->
 
-                <div class="rating-container desktop-only">
-                    <div class="rating-wrapper">
-                        <svg class="rating-indicator" width="300" height="200">
-                            <polygon points="38,50  0,70  38,100" style="fill:#8B7A68;stroke:black;stroke-width:2;" />
-                            Sorry, your browser does not support inline SVG.
-                        </svg>
-                        <div class="rating-percent">
-                            <p>87.5%</p>
-                        </div>
+                <!----        rating title container top     ---->
+
+                <div id="information-page" class="rating-title-container-top">
+                    <div class="rating-title-wrapper-left d-flex justify-content-around align-items-center">
+                        <h5 class="rating-color--staff">Staff</h5>
+                        <h5 class="rating-color--comfort">Comfort</h5>
+                        <h5 class="rating-color--cleanliness">Cleanliness</h5>
+
+                        <!----   rating title container top (desktop only)    ---->
+
+                        <h5 class="rating-color--wifi desktop-only">Wifi</h5>
+                        <h5 class="rating-color--location desktop-only">Location</h5>
+                        <h5 class="rating-color--faculties desktop-only">Faculties</h5>
                     </div>
                 </div>
-                <div class="rating-container desktop-only">
-                    <div class="rating-wrapper">
-                        <svg class="rating-indicator" width="300" height="200">
-                            <polygon points="38,50  0,70  38,100" style="fill:#EEB071;stroke:black;stroke-width:2;" />
-                            Sorry, your browser does not support inline SVG.
-                        </svg>
-                        <div class="rating-percent">
-                            <p>87.5%</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="rating-container desktop-only">
-                    <div class="rating-wrapper">
-                        <svg class="rating-indicator" width="300" height="200">
-                            <polygon points="38,50  0,70  38,100" style="fill:#B87836;stroke:black;stroke-width:2;" />
-                            Sorry, your browser does not support inline SVG.
-                        </svg>
-                        <div class="rating-percent">
-                            <p>87.5%</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="information-page-overlay-border-desktop desktop-only"></div>
-
-            <!----      // rating indicators top  (desktop only)       ---->
-
-            <!----      // rating indicators top         ---->
-
-            <!----        rating title container bottom  (Mobile only)   ---->
-
-            <div class="mobile-only">
-                <div class="rating-title-container-bottom">
-                    <div class="rating-title-wrapper-bottom d-flex justify-content-around align-items-center">
-                        <h5 class="rating-color--wifi">Wifi</h5>
-                        <h5 class="rating-color--location">Location</h5>
-                        <h5 class="rating-color--faculties">Faculties</h5>
-                    </div>
-                </div>
-
-                <!----      //rating title container bottom  (Mobile only)   ---->
-
-                <!----         rating indicators bottom    (Mobile only)     ---->
-
-                <div class="bottom-rating-container d-flex justify-content-around align-items-center">
-                    <div class="rating-container ">
-                        <div class="rating-wrapper">
-                            <svg class="rating-indicator" width="300" height="200">
-                                <polygon points="38,50  0,70  38,100"
-                                    style="fill:#8B7A68;stroke:black;stroke-width:2;" />
-                                Sorry, your browser does not support inline SVG.
-                            </svg>
-                            <div class="rating-percent">
-                                <p>87.5%</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="rating-container">
-                        <div class="rating-wrapper">
-                            <svg class="rating-indicator" width="300" height="200">
-                                <polygon points="38,50  0,70  38,100"
-                                    style="fill:#EEB071;stroke:black;stroke-width:2;" />
-                                Sorry, your browser does not support inline SVG.
-                            </svg>
-                            <div class="rating-percent">
-                                <p>87.5%</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="rating-container ">
-                        <div class="rating-wrapper">
-                            <svg class="rating-indicator" width="300" height="200">
-                                <polygon points="38,50  0,70  38,100"
-                                    style="fill:#B87836;stroke:black;stroke-width:2;" />
-                                Sorry, your browser does not support inline SVG.
-                            </svg>
-                            <div class="rating-percent">
-                                <p>87.5%</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="information-page-overlay-border-mobile"></div>
-            </div>
-        </div>
-        <!----      // rating indicators bottom    (Mobile only)     ---->
-
-        <!----        informaion and prices      ---->
-
-        <div class="container-fluid m-0 p-0">
-            <div class="row m-0 p-0">
-                <div class="col-sm-12 col-lg-4 p-0 m-0">
-                    <div class="row p-0 m-0">
-                        <div class="col-sm-12 col-md-6 col-lg-12 p-4 m-0">
-                            <div class="border information-half-section p-2">
-                                <h4 class="text-center text-secondary">Faculties</h4>
-                                <ul>
-                                    <li>10 smoke-free guestrooms</li>
-                                    <li>Restaurant and bar/lounge</li>
-                                    <li>Terrace</li>
-                                    <li>Daily housekeeping</li>
-                                </ul>
-                                <a class="packages-color--gold" href="#">Show more</a>
-                                <i class="far fa-arrow-alt-circle-up packages-color--gold"></i>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-12 p-4 m-0">
-                            <div class="border information-half-section p-2">
-                                <h4 class="text-center text-secondary">Feel at home</h4>
-                                <ul>
-                                    <li>Private bathroom</li>
-                                    <li>Free toiletries</li>
-                                    <li>Terrace</li>
-                                    <li>Hair dryer</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 p-4">
-                    <div class="border information-full-section p-2">
-                        <h4 class="text-center text-secondary">Landmarks</h4>
-                        <ul class="landmark-list">
-                            <li>In a national park</li>
-                            <li>Derwent Water (34-minute walk)</li>
-                            <li>Keswick Museum and Art Gallery (3-minute walk)</li>
-                            <li>Hope Park (9-minute walk)</li>
-                            <li>Cumberland Pencil Museum (9-minute walk)</li>
-                            <li>Theatre By The Lake (11-minute walk)</li>
-                            <li>Crosthwaite Church (18-minute walk)</li>
-                            <li>Castlerigg Stone Circle (32-minute walk)</li>
-                        </ul>
-                        <a class="packages-color--gold" href="#">Show more</a>
-                        <i class="far fa-arrow-alt-circle-up packages-color--gold"></i>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 p-4">
-                    <div class="p-2 room-per-night-container information-full-section">
-                        <h4 class="text-center text-secondary">Room Cost</h4>
-                        <div class="d-flex justify-content-center">
-                            <h4 class="text-center text-secondary mr-1">£250.00</h4>
-                            <p>Per Night</p>
-                        </div>
-                        <hr>
-                        <p class="text-center">Please take a look to see which days are available for your 'Holiday'</p>
-                        <div class="d-flex justify-content-around">
-                            <div class="d-inline-block info-dates-wrapper">
-                                <p class="m-0">Check-in Date:</p>
-                                <input type="date" class="information-section-date-input">
-                            </div>
-                            <div class="d-inline-block info-dates-wrapper">
-                                <p class="m-0">Check-out Date:</p>
-                                <input type="date" class="information-section-date-input">
-                            </div>
-                        </div>
+            </section>
 
 
-                        <div class="container-fluid p-0">
-                            <div class="row m-0 p-0">
-                                <div class="col-6">
-                                    <p class="m-0">Packages:</p>
-                                    <select type="date">
-                                        <option>King's/Queen's</option>
-                                        <option>Walkers</option>
-                                        <option>Fearless</option>
-                                    </select>
-                                </div>
-                                <div class="col-3">
-                                    <p class="m-0">Rooms:</p>
-                                    <input type="number" placeholder="1">
+            <!---- // rating title container top (desktop only)    ---->
+
+            <!----      //rating title container top     ---->
+
+            <!----         rating indicators top         ---->
+
+            <section>
+                <div class="rating-background-image">
+
+                    <div class="top-rating-container d-flex justify-content-around align-items-center">
+                        <div class="rating-container ">
+                            <div class="rating-wrapper">
+                                <svg class="rating-indicator" width="300" height="200">
+                                    <polygon points="38,50  0,70  38,100"
+                                        style="fill:#CF863C;stroke:black;stroke-width:2;" />
+                                    Sorry, your browser does not support inline SVG.
+                                </svg>
+                                <div class="rating-percent">
+                                    <p>87.5%</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="container-fluid p-0">
-                            <div class="row m-0 p-0">
-                                <div class="col-4">
-                                    <p class="m-0">Adults:</p>
-                                    <input type="number" placeholder="1">
+                        <div class="rating-container">
+                            <div class="rating-wrapper">
+                                <svg class="rating-indicator" width="300" height="200">
+                                    <polygon points="38,50  0,70  38,100"
+                                        style="fill:#FFB56A;stroke:black;stroke-width:2;" />
+                                    Sorry, your browser does not support inline SVG.
+                                </svg>
+                                <div class="rating-percent">
+                                    <p>87.5%</p>
                                 </div>
-                                <div class="col-4">
-                                    <p class="m-0">Children:</p>
-                                    <input type="number" placeholder="1">
+                            </div>
+                        </div>
+                        <div class="rating-container ">
+                            <div class="rating-wrapper">
+                                <svg class="rating-indicator" width="300" height="200">
+                                    <polygon points="38,50  0,70  38,100"
+                                        style="fill:#CE5756;stroke:black;stroke-width:2;" />
+                                    Sorry, your browser does not support inline SVG.
+                                </svg>
+                                <div class="rating-percent">
+                                    <p>87.5%</p>
                                 </div>
-                                <div class="col-4 d-flex align-items-end">
-                                    <a class="kings-button">Book Now</a>
+                            </div>
+                        </div>
+
+                        <!----       rating indicators top  (desktop only)       ---->
+
+                        <div class="rating-container desktop-only">
+                            <div class="rating-wrapper">
+                                <svg class="rating-indicator" width="300" height="200">
+                                    <polygon points="38,50  0,70  38,100"
+                                        style="fill:#8B7A68;stroke:black;stroke-width:2;" />
+                                    Sorry, your browser does not support inline SVG.
+                                </svg>
+                                <div class="rating-percent">
+                                    <p>87.5%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rating-container desktop-only">
+                            <div class="rating-wrapper">
+                                <svg class="rating-indicator" width="300" height="200">
+                                    <polygon points="38,50  0,70  38,100"
+                                        style="fill:#EEB071;stroke:black;stroke-width:2;" />
+                                    Sorry, your browser does not support inline SVG.
+                                </svg>
+                                <div class="rating-percent">
+                                    <p>87.5%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rating-container desktop-only">
+                            <div class="rating-wrapper">
+                                <svg class="rating-indicator" width="300" height="200">
+                                    <polygon points="38,50  0,70  38,100"
+                                        style="fill:#B87836;stroke:black;stroke-width:2;" />
+                                    Sorry, your browser does not support inline SVG.
+                                </svg>
+                                <div class="rating-percent">
+                                    <p>87.5%</p>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="information-page-overlay-border-desktop desktop-only"></div>
+
+                    <!----      // rating indicators top  (desktop only)       ---->
+
+                    <!----      // rating indicators top         ---->
+
+                    <!----        rating title container bottom  (Mobile only)   ---->
+
+                    <div class="mobile-only">
+                        <div class="rating-title-container-bottom">
+                            <div class="rating-title-wrapper-bottom d-flex justify-content-around align-items-center">
+                                <h5 class="rating-color--wifi">Wifi</h5>
+                                <h5 class="rating-color--location">Location</h5>
+                                <h5 class="rating-color--faculties">Faculties</h5>
+                            </div>
+                        </div>
+
+                        <!----      //rating title container bottom  (Mobile only)   ---->
+
+                        <!----         rating indicators bottom    (Mobile only)     ---->
+
+                        <div class="bottom-rating-container d-flex justify-content-around align-items-center">
+                            <div class="rating-container ">
+                                <div class="rating-wrapper">
+                                    <svg class="rating-indicator" width="300" height="200">
+                                        <polygon points="38,50  0,70  38,100"
+                                            style="fill:#8B7A68;stroke:black;stroke-width:2;" />
+                                        Sorry, your browser does not support inline SVG.
+                                    </svg>
+                                    <div class="rating-percent">
+                                        <p>87.5%</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rating-container">
+                                <div class="rating-wrapper">
+                                    <svg class="rating-indicator" width="300" height="200">
+                                        <polygon points="38,50  0,70  38,100"
+                                            style="fill:#EEB071;stroke:black;stroke-width:2;" />
+                                        Sorry, your browser does not support inline SVG.
+                                    </svg>
+                                    <div class="rating-percent">
+                                        <p>87.5%</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rating-container ">
+                                <div class="rating-wrapper">
+                                    <svg class="rating-indicator" width="300" height="200">
+                                        <polygon points="38,50  0,70  38,100"
+                                            style="fill:#B87836;stroke:black;stroke-width:2;" />
+                                        Sorry, your browser does not support inline SVG.
+                                    </svg>
+                                    <div class="rating-percent">
+                                        <p>87.5%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="information-page-overlay-border-mobile"></div>
+                    </div>
                 </div>
-            </div>
-        </div>
+            </section>
 
-        <!----    // informaion and prices      ---->
+            <!----      // rating indicators bottom    (Mobile only)     ---->
 
-        <!----      packages section       ---->
+            <!----        informaion and prices      ---->
 
-        <!----     King's and queens package section      ---->
-
-        <div id="packages" class="container-fluid p-0 m-0">
-            <div class="row p-0 m-0">
-                <div class="col-sm-12 py-3 col-lg-4 kings-package-section-background">
-                    <div class="packages-alpha-over">
-                        <h3 class="packages-color--gold mb-4 packages-title">Packages</h3>
-                        <h5 class="packages-color--king text-center mb-3">King's and Queens</h5>
-                        <p class="text-light">Book this package if you are looking for a luxurious break,
-                            While
-                            your with us you will enjoy the following:</p>
-                        <div class="px-3">
-                            <h4 class="text-secondary my-2">Townend</h4>
-                            <p class="text-light">Get tour around the Townend and take a step back in time.
+            <section class="container-fluid m-0 p-0">
+                <div class="row m-0 p-0">
+                    <div class="col-sm-12 col-lg-4 p-0 m-0">
+                        <div class="row p-0 m-0">
+                            <div class="col-sm-12 col-md-6 col-lg-12 p-4 m-0">
+                                <div class="border information-half-section p-2">
+                                    <h4 class="text-center text-secondary">Faculties</h4>
+                                    <ul>
+                                        <li>10 smoke-free guestrooms</li>
+                                        <li>Restaurant and bar/lounge</li>
+                                        <li>Terrace</li>
+                                        <li>Daily housekeeping</li>
+                                    </ul>
+                                    <a class="packages-color--gold" href="#">Show more</a>
+                                    <i class="far fa-arrow-alt-circle-up packages-color--gold"></i>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-12 p-4 m-0">
+                                <div class="border information-half-section p-2">
+                                    <h4 class="text-center text-secondary">Feel at home</h4>
+                                    <ul>
+                                        <li>Private bathroom</li>
+                                        <li>Free toiletries</li>
+                                        <li>Terrace</li>
+                                        <li>Hair dryer</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 p-4">
+                        <div class="border information-full-section p-2">
+                            <h4 class="text-center text-secondary">Landmarks</h4>
+                            <ul class="landmark-list">
+                                <li>In a national park</li>
+                                <li>Derwent Water (34-minute walk)</li>
+                                <li>Keswick Museum and Art Gallery (3-minute walk)</li>
+                                <li>Hope Park (9-minute walk)</li>
+                                <li>Cumberland Pencil Museum (9-minute walk)</li>
+                                <li>Theatre By The Lake (11-minute walk)</li>
+                                <li>Crosthwaite Church (18-minute walk)</li>
+                                <li>Castlerigg Stone Circle (32-minute walk)</li>
+                            </ul>
+                            <a class="packages-color--gold" href="#">Show more</a>
+                            <i class="far fa-arrow-alt-circle-up packages-color--gold"></i>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 p-4">
+                        <div class="p-2 room-per-night-container information-full-section">
+                            <h4 class="text-center text-secondary">Room Cost</h4>
+                            <div class="d-flex justify-content-center">
+                                <h4 class="text-center text-secondary mr-1">£250.00</h4>
+                                <p>Per Night</p>
+                            </div>
+                            <hr>
+                            <p class="text-center">Please take a look to see which days are available for your 'Holiday'
                             </p>
-                            <a href="#" class="packages-color--gold">Discover</a>
-                            <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
-                            <h4 class="text-secondary my-2">Boat ride</h4>
-                            <p class="text-light">Take a ride of your life through the lakes.</p>
-                            <a href="#" class="packages-color--gold">Discover</a>
-                            <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
-                            <h4 class="text-secondary my-2">Meal for two</h4>
-                            <p class="text-light">Have a delicious meal for two at the famous ""</p>
-                            <a href="#" class="packages-color--gold">Discover</a>
-                            <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
-                        </div>
-                        <div class="mt-4">
-                            <a href="#" class="packages-color--gold">Learn more</a>
-                            <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
-                        </div>
-                    </div>
-                </div>
+                            <div class="d-flex justify-content-around">
+                                <div class="d-inline-block info-dates-wrapper">
+                                    <p class="m-0">Check-in Date:</p>
+                                    <input type="date" class="information-section-date-input">
+                                </div>
+                                <div class="d-inline-block info-dates-wrapper">
+                                    <p class="m-0">Check-out Date:</p>
+                                    <input type="date" class="information-section-date-input">
+                                </div>
+                            </div>
 
-                <!----    // King's and queens package section      ---->
 
-                <!----     the walkers package section      ---->
-
-                <div class="col-sm-12 py-3 col-lg-4 walkers-package-section-background">
-                    <div class="packages-alpha-over">
-                        <h5 class="packages-color--walkers text-center mt-5 mb-3">The Walkers</h5>
-                        <p class="text-light">Book this package if you are looking for a luxurious break,
-                            While
-                            your with us you will enjoy the following:</p>
-                        <div class="px-3">
-                            <h4 class="text-secondary my-2">Townend</h4>
-                            <p class="text-light">Get tour around the Townend and take a step back in time.
-                            </p>
-                            <a href="#" class="packages-color--gold">Discover</a>
-                            <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
-                            <h4 class="text-secondary my-2">Boat ride</h4>
-                            <p class="text-light">Take a ride of your life through the lakes.</p>
-                            <a href="#" class="packages-color--gold">Discover</a>
-                            <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
-                            <h4 class="text-secondary my-2">Meal for two</h4>
-                            <p class="text-light">Have a delicious meal for two at the famous ""</p>
-                            <a href="#" class="packages-color--gold">Discover</a>
-                            <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
-                        </div>
-                        <div class="mt-4">
-                            <a href="#" class="packages-color--gold">Learn more</a>
-                            <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
+                            <div class="container-fluid p-0">
+                                <div class="row m-0 p-0">
+                                    <div class="col-6">
+                                        <p class="m-0">Packages:</p>
+                                        <select type="date">
+                                            <option>King's/Queen's</option>
+                                            <option>Walkers</option>
+                                            <option>Fearless</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-3">
+                                        <p class="m-0">Rooms:</p>
+                                        <input type="number" placeholder="1">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-fluid p-0">
+                                <div class="row m-0 p-0">
+                                    <div class="col-4">
+                                        <p class="m-0">Adults:</p>
+                                        <input type="number" placeholder="1">
+                                    </div>
+                                    <div class="col-4">
+                                        <p class="m-0">Children:</p>
+                                        <input type="number" placeholder="1">
+                                    </div>
+                                    <div class="col-4 d-flex align-items-end">
+                                        <a class="kings-button">Book Now</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </section>
 
-                <!----     //the walkers package section      ---->
+            <!----    // informaion and prices      ---->
 
-                <!----     the fearless package section      ---->
+            <!----      packages section       ---->
 
-                <div class="col-sm-12 py-3 col-lg-4 fearless-package-section-background">
-                    <div class="packages-alpha-over">
-                        <h5 class="packages-color--fearless text-center mt-5 mb-3">The Fearless</h5>
-                        <p class="text-light">Book this package if you are looking for a luxurious break,
-                            While
-                            your with us you will enjoy the following:</p>
-                        <div class="px-3">
-                            <h4 class="text-secondary my-2">Townend</h4>
-                            <p class="text-light">Get a tour around the Townend and take a step back in
-                                time.</p>
-                            <a href="#" class="packages-color--gold">Discover</a>
-                            <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
-                            <h4 class="text-secondary my-2">Boat ride</h4>
-                            <p class="text-light">Take a ride of your life through the lakes.</p>
-                            <a href="#" class="packages-color--gold">Discover</a>
-                            <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
-                            <h4 class="text-secondary my-2">Meal for two</h4>
-                            <p class="text-light">Have a delicious meal for two at the famous ""</p>
-                            <a href="#" class="packages-color--gold">Discover</a>
-                            <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
+            <!----     King's and queens package section      ---->
+
+            <section id="packages" class="container-fluid p-0 m-0">
+                <div class="row p-0 m-0">
+                    <div class="col-sm-12 py-3 col-lg-4 kings-package-section-background">
+                        <div class="packages-alpha-over">
+                            <h3 class="packages-color--gold mb-4 packages-title">Packages</h3>
+                            <h5 class="packages-color--king text-center mb-3">King's and Queens</h5>
+                            <p class="text-light">Book this package if you are looking for a luxurious break,
+                                While
+                                your with us you will enjoy the following:</p>
+                            <div class="px-3">
+                                <h4 class="text-secondary my-2">Townend</h4>
+                                <p class="text-light">Get tour around the Townend and take a step back in time.
+                                </p>
+                                <a href="#" class="packages-color--gold">Discover</a>
+                                <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
+                                <h4 class="text-secondary my-2">Boat ride</h4>
+                                <p class="text-light">Take a ride of your life through the lakes.</p>
+                                <a href="#" class="packages-color--gold">Discover</a>
+                                <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
+                                <h4 class="text-secondary my-2">Meal for two</h4>
+                                <p class="text-light">Have a delicious meal for two at the famous ""</p>
+                                <a href="#" class="packages-color--gold">Discover</a>
+                                <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
+                            </div>
+                            <div class="mt-4">
+                                <a href="#" class="packages-color--gold">Learn more</a>
+                                <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
+                            </div>
                         </div>
-                        <div class="mt-4">
-                            <a href="#" class="packages-color--gold">Learn more</a>
-                            <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
+                    </div>
+
+                    <!----    // King's and queens package section      ---->
+
+                    <!----     the walkers package section      ---->
+
+                    <div class="col-sm-12 py-3 col-lg-4 walkers-package-section-background">
+                        <div class="packages-alpha-over">
+                            <h5 class="packages-color--walkers text-center mt-5 mb-3">The Walkers</h5>
+                            <p class="text-light">Book this package if you are looking for a luxurious break,
+                                While
+                                your with us you will enjoy the following:</p>
+                            <div class="px-3">
+                                <h4 class="text-secondary my-2">Townend</h4>
+                                <p class="text-light">Get tour around the Townend and take a step back in time.
+                                </p>
+                                <a href="#" class="packages-color--gold">Discover</a>
+                                <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
+                                <h4 class="text-secondary my-2">Boat ride</h4>
+                                <p class="text-light">Take a ride of your life through the lakes.</p>
+                                <a href="#" class="packages-color--gold">Discover</a>
+                                <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
+                                <h4 class="text-secondary my-2">Meal for two</h4>
+                                <p class="text-light">Have a delicious meal for two at the famous ""</p>
+                                <a href="#" class="packages-color--gold">Discover</a>
+                                <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
+                            </div>
+                            <div class="mt-4">
+                                <a href="#" class="packages-color--gold">Learn more</a>
+                                <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!----     //the walkers package section      ---->
+
+                    <!----     the fearless package section      ---->
+
+                    <div class="col-sm-12 py-3 col-lg-4 fearless-package-section-background">
+                        <div class="packages-alpha-over">
+                            <h5 class="packages-color--fearless text-center mt-5 mb-3">The Fearless</h5>
+                            <p class="text-light">Book this package if you are looking for a luxurious break,
+                                While
+                                your with us you will enjoy the following:</p>
+                            <div class="px-3">
+                                <h4 class="text-secondary my-2">Townend</h4>
+                                <p class="text-light">Get a tour around the Townend and take a step back in
+                                    time.</p>
+                                <a href="#" class="packages-color--gold">Discover</a>
+                                <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
+                                <h4 class="text-secondary my-2">Boat ride</h4>
+                                <p class="text-light">Take a ride of your life through the lakes.</p>
+                                <a href="#" class="packages-color--gold">Discover</a>
+                                <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
+                                <h4 class="text-secondary my-2">Meal for two</h4>
+                                <p class="text-light">Have a delicious meal for two at the famous ""</p>
+                                <a href="#" class="packages-color--gold">Discover</a>
+                                <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
+                            </div>
+                            <div class="mt-4">
+                                <a href="#" class="packages-color--gold">Learn more</a>
+                                <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </section>
 
-        <!----     //the fearless package section      ---->
+            <!----     //the fearless package section      ---->
 
-        <!----      //packages section       ---->
+            <!----      //packages section       ---->
 
-        <!----     reviews portion        ---->
+            <!----     reviews portion        ---->
 
-        <div class="review-background-page">
-            <div class="row m-0 review-container">
-                <div class="col-12">
-                    <h3 class="text-center reviews-title second-title-font" id="reviews">Guest Review's</h3>
-                </div>
-                <div class="col-sm-12 col-md-6 my-3">
-                    <div class="review-image-wrapper--green mb-5 mr-4">
-                        <img src="assets/images/women-reviewer.png" class="review-image-size">
+            <section class="review-background-page">
+                <div class="row m-0 review-container">
+                    <div class="col-12">
+                        <h3 class="text-center reviews-title second-title-font" id="reviews">Guest Review's</h3>
                     </div>
-                    <div>
-                        <h3 class="d-inline-block">Harry Rose</h3>
-                        <p>This was the best break I've had
-                            in years! Would recommend if
-                            your feeling stressed</p>
+                    <div class="col-sm-12 col-md-6 my-3">
+                        <div class="review-image-wrapper--green mb-5 mr-4">
+                            <img src="assets/images/women-reviewer.png" class="review-image-size">
+                        </div>
+                        <div>
+                            <h3 class="d-inline-block">Harry Rose</h3>
+                            <p>This was the best break I've had
+                                in years! Would recommend if
+                                your feeling stressed</p>
+                        </div>
                     </div>
-                </div>
 
-                <div class="col-sm-12 col-md-6 my-3">
-                    <div class="review-image-wrapper--red mb-5 mr-4">
-                        <img src="assets/images/harry-reviewer.png" class="review-image-size">
+                    <div class="col-sm-12 col-md-6 my-3">
+                        <div class="review-image-wrapper--red mb-5 mr-4">
+                            <img src="assets/images/harry-reviewer.png" class="review-image-size">
+                        </div>
+                        <div>
+                            <h3 class="d-inline-block">Harry Rose</h3>
+                            <p>This was the best break I've had
+                                in years! Would recommend if
+                                your feeling stressed</p>
+                        </div>
                     </div>
-                    <div>
-                        <h3 class="d-inline-block">Harry Rose</h3>
-                        <p>This was the best break I've had
-                            in years! Would recommend if
-                            your feeling stressed</p>
+                    <hr class="review-hr">
+                    <div class="col-sm-12 col-md-6 my-3">
+                        <div class="review-image-wrapper--green mb-5 mr-4">
+                            <img src="assets/images/lily-reviewer.png" class="review-image-size">
+                        </div>
+                        <div>
+                            <h3 class="d-inline-block">Harry Rose</h3>
+                            <p>This was the best break I've had
+                                in years! Would recommend if
+                                your feeling stressed</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 my-3">
+                        <div class="review-image-wrapper--red mb-5 mr-4">
+                            <img src="assets/images/man-reviewer.png" class="review-image-size">
+                        </div>
+                        <div>
+                            <h3 class="d-inline-block">Harry Rose</h3>
+                            <p>This was the best break I've had
+                                in years! Would recommend if
+                                your feeling stressed</p>
+                        </div>
+                    </div>
+                    <hr class="review-hr">
+                    <div class="col-sm-12 col-md-6 my-3">
+                        <div class="review-image-wrapper--green mb-5 mr-4">
+                            <img src="assets/images/steven-reviewer.png" class="review-image-size">
+                        </div>
+                        <div>
+                            <h3 class="d-inline-block">Harry Rose</h3>
+                            <p>This was the best break I've had
+                                in years! Would recommend if
+                                your feeling stressed</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 my-3">
+                        <div class="review-image-wrapper--red mb-5 mr-4">
+                            <img src="assets/images/melissa-reviewer.png" class="review-image-size">
+                        </div>
+                        <div>
+                            <h3 class="d-inline-block">Harry Rose</h3>
+                            <p>This was the best break I've had
+                                in years! Would recommend if
+                                your feeling stressed</p>
+                        </div>
                     </div>
                 </div>
-                <hr class="review-hr">
-                <div class="col-sm-12 col-md-6 my-3">
-                    <div class="review-image-wrapper--green mb-5 mr-4">
-                        <img src="assets/images/lily-reviewer.png" class="review-image-size">
-                    </div>
-                    <div>
-                        <h3 class="d-inline-block">Harry Rose</h3>
-                        <p>This was the best break I've had
-                            in years! Would recommend if
-                            your feeling stressed</p>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 my-3">
-                    <div class="review-image-wrapper--red mb-5 mr-4">
-                        <img src="assets/images/man-reviewer.png" class="review-image-size">
-                    </div>
-                    <div>
-                        <h3 class="d-inline-block">Harry Rose</h3>
-                        <p>This was the best break I've had
-                            in years! Would recommend if
-                            your feeling stressed</p>
-                    </div>
-                </div>
-                <hr class="review-hr">
-                <div class="col-sm-12 col-md-6 my-3">
-                    <div class="review-image-wrapper--green mb-5 mr-4">
-                        <img src="assets/images/steven-reviewer.png" class="review-image-size">
-                    </div>
-                    <div>
-                        <h3 class="d-inline-block">Harry Rose</h3>
-                        <p>This was the best break I've had
-                            in years! Would recommend if
-                            your feeling stressed</p>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 my-3">
-                    <div class="review-image-wrapper--red mb-5 mr-4">
-                        <img src="assets/images/melissa-reviewer.png" class="review-image-size">
-                    </div>
-                    <div>
-                        <h3 class="d-inline-block">Harry Rose</h3>
-                        <p>This was the best break I've had
-                            in years! Would recommend if
-                            your feeling stressed</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
+            </section>
+        </main>
 
         <!----    // reviews portion        ---->
 

@@ -437,7 +437,9 @@ input[type="date"] {
     display: none;
 }
 
-.pictures-view-on-map {}
+.pictures-view-on-map {
+
+}
 
 .picture-background-overlay-empty {
     height: 5px;
@@ -908,7 +910,7 @@ input[type=date].information-section-date-input {
         padding-left: 40px;
         padding-right: 40px;
         padding-top: 40px;
-        padding-bottom: 60px;
+        padding-bottom: 20px;
     }
     .half-section-wrapper {
         display: inline-block;
@@ -996,7 +998,7 @@ input[type=date].information-section-date-input {
 	background:url("../images/reviews-background.png")no-repeat center center;
 	background-size:cover;
 	height:1100px;
-	padding-left:100px;
+	padding-left:150px;
 	padding-right:150px;
 }
 	.review-container {
