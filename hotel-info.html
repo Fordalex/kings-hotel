@@ -348,49 +348,45 @@
                             <hr>
                             <p class="text-center">Please take a look to see which days are available for your 'Holiday'
                             </p>
-                            <div class="d-flex justify-content-around">
-                                <div class="d-inline-block info-dates-wrapper">
-                                    <p class="m-0">Check-in Date:</p>
-                                    <input type="date" class="information-section-date-input">
-                                </div>
-                                <div class="d-inline-block info-dates-wrapper">
-                                    <p class="m-0">Check-out Date:</p>
-                                    <input type="date" class="information-section-date-input">
-                                </div>
-                            </div>
-
-
-                            <div class="container-fluid p-0">
-                                <div class="row m-0 p-0">
+                            <form>
+                                <div class="form-row p-2">
                                     <div class="col-6">
-                                        <p class="m-0">Packages:</p>
-                                        <select type="date">
-                                            <option>King's/Queen's</option>
-                                            <option>Walkers</option>
-                                            <option>Fearless</option>
+                                        <p>Check-in Date:</p>
+                                        <input type="date" class="form-control">
+                                    </div>
+                                    <div class="col-6">
+                                        <p>Check-out Date:</p>
+                                        <input type="date" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-row p-2">
+                                    <div class="col-4">
+                                        <p>Adults:</p>
+                                        <input type="number" class="form-control" placeholder="2">
+                                    </div>
+                                    <div class="col-4">
+                                        <p>Children:</p>
+                                        <input type="number" class="form-control" placeholder="1">
+                                    </div>
+                                    <div class="col-4">
+                                        <p>Rooms:</p>
+                                        <input type="number" class="form-control" placeholder="1">
+                                    </div>
+                                </div>
+                                <div class="form-row p-2 m-0 mt-3">
+                                    <div class="col-7 p-0">
+                                        <select class="form-control">
+                                            <option>King's/Queen</option>
+                                            <option>The Walkers</option>
+                                            <option>The Fearless</option>
+                                            <option>None</option>
                                         </select>
                                     </div>
-                                    <div class="col-3">
-                                        <p class="m-0">Rooms:</p>
-                                        <input type="number" placeholder="1">
+                                    <div class="col-5 p-0 d-flex align-items-center justify-content-end">
+                                        <a class="kings-button">Book now</a>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="container-fluid p-0">
-                                <div class="row m-0 p-0">
-                                    <div class="col-4">
-                                        <p class="m-0">Adults:</p>
-                                        <input type="number" placeholder="1">
-                                    </div>
-                                    <div class="col-4">
-                                        <p class="m-0">Children:</p>
-                                        <input type="number" placeholder="1">
-                                    </div>
-                                    <div class="col-4 d-flex align-items-end">
-                                        <a class="kings-button">Book Now</a>
-                                    </div>
-                                </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
