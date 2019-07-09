@@ -84,6 +84,10 @@ body {
     font-size: 50px;
 }
 
+.smaller-mobile-font {
+    font-size:0.9em;
+}
+
 /*   //font   */
 
 /*   //generic    */
@@ -818,6 +822,11 @@ footer {
         display: inline-block;
     }
     /*  ----- // (hotel-info.html)   ------ */
+    /*  -----  (book-now.html)  ------ */
+    .smaller-mobile-font {
+        font-size:1em;
+    }
+    /*  ----- // (book-now.html)  ------ */
 }
 
 @media (min-width: 566px) {
