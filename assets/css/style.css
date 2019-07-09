@@ -709,7 +709,7 @@ body {
 }
 
 .contactus-background-image {
-    background:url("../images/contact-page.png")no-repeat bottom center;
+    background:url("../images/mobile-contact-us-background.png")no-repeat bottom right;
     background-size:cover;
 }
 
@@ -923,6 +923,10 @@ footer {
     }
 
     /*  ----- // (hotel-info.html)   ------ */
+    .contactus-background-image {
+        background:url("../images/contact-page.png")no-repeat bottom center;
+        background-size:cover;
+    }
 }
 
 @media (min-width: 992px) {
