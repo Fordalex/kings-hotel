@@ -58,10 +58,6 @@ body {
     background-image: linear-gradient(#BBA724, #d8b92d, #e5cd32);
 }
 
-.kings-font {
-    font-family: 'Pacifico', cursive;
-}
-
 .kings-shadow {
     box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.25);
 }
@@ -77,15 +73,11 @@ body {
 
 /*  // icons    */
 
-/*  modal  */
-
-.modal-style {
-    border-top: solid 5px green;
-}
-
-/*  // modal  */
-
 /*    font    */
+
+.kings-font {
+    font-family: 'Pacifico', cursive;
+}
 
 .second-title-font {
     font-family: Pacifico, cursive;
@@ -317,7 +309,7 @@ body {
 
 .landing-dates-container {
     width: 100%;
-    background-color: white;
+    background: linear-gradient(rgb(255, 255, 255),rgba(230,230,230,1));
     border-radius: 10px 10px 0px 0px;
     border: solid #7A873E 1px;
 }
@@ -415,12 +407,16 @@ body {
     display: none;
 }
 
-.pictures-view-on-map {
-
-}
-
 .picture-background-overlay-empty {
     height: 5px;
+}
+
+.view-on-map {
+   height:70px;
+}
+
+.view-on-map h5 {
+
 }
 
 /*  //  picture section       */
@@ -723,7 +719,7 @@ body {
 
 /*       footer         */
 
-.footer {
+footer {
     height: 235px;
     background-color: #DCCE73;
     border: solid 1px #707070;
@@ -873,7 +869,7 @@ body {
         }
     /*  -----  //(hotel-info.html)  ------ */
     /*     footer      */
-    .footer {
+    footer {
         height: 95px;
     }
     /*   //footer     */
@@ -937,7 +933,7 @@ body {
     }
     /*      //navigation bar     */
     .home-check-dates-container {
-        width:900px;
+        width:600px;
     }
     /*  ------ (hotel-info) ------ */
     .information-full-section {
@@ -989,7 +985,7 @@ body {
 
 @media (min-width: 1200px) {
     /*         footer         */
-    .footer {
+    footer {
         height: 50px;
     }
     .footer-socaial-container {
