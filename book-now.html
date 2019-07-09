@@ -104,15 +104,15 @@
                                 <div class="form-row m-0 p-2">
                                     <div class="col-3">
                                         <p class="m-0 smaller-mobile-font">Adults:</p>
-                                        <input type="number" class="form-control" placeholder="2">
+                                        <input type="number" class="form-control" placeholder="2" min="1">
                                     </div>
                                     <div class="col-3">
                                         <p class="m-0 smaller-mobile-font">Children:</p>
-                                        <input type="number" class="form-control" placeholder="1">
+                                        <input type="number" class="form-control" placeholder="1" min="0">
                                     </div>
                                     <div class="col-3">
                                         <p class="m-0 smaller-mobile-font">Rooms:</p>
-                                        <input type="number" class="form-control" placeholder="1">
+                                        <input type="number" class="form-control" placeholder="1" min="1">
                                     </div>
                                     <div class="col-3">
                                         <p class="m-0 smaller-mobile-font">Packages:</p>
@@ -125,40 +125,36 @@
                                     </div>
                                 </div>
 
+                                <div class="border m-2 bg-light p-3">
                                 <div class="form-row m-0">
-                                    <div class="col-12 mt-2">
-                                        <div class="border bg-light p-2 d-flex justify-content-around">
-                                            <div class="d-inline-block">
-                                                <p>Room's</p>
-                                                <p>Cost Per Night:</p>
-                                                <hr>
-                                                <p>Adult's:</p>
-                                                <p>Children:</p>
-                                                <hr>
-                                                <p>Total Nights:</p>
-                                                <p>package Saving:</p>
-                                                <p>Total Price:</p>
-                                            </div>
-                                            <div class="d-inline-block">
-                                                <div>
-                                                    <p>1</p>
-                                                    <p>£250.00</p>
-                                                    <hr>
-                                                    <p>2</p>
-                                                    <p>0</p>
-                                                    <hr>
-                                                    <p>8</p>
-                                                    <p>£72.54</p>
-                                                    <p>£1927.46</p>
-                                                </div>
-                                            </div>
+                                    <div class="col-6 mt-2">
+                                        <div>
+                                            <p>Rooms:</p>
+                                            <p>Cost per night:</p>
+                                            <p>Adults:</p>
+                                            <p>Children</p>
+                                            <p>Total nights:</p>
+                                            <p>Package savings:</p>
+                                            <p class="m-0">Total price:</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 d-flex justify-content-end">
+                                        <div>
+                                            <p>1</p>
+                                            <p>£150.00</p>
+                                            <p>2</p>
+                                            <p>1</p>
+                                            <p>5</p>
+                                            <p>£48.55</p>
+                                            <p class="m-0">£701.45</p>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
                                 <div class="form-row m-0">
                                     <div class="col-12 mt-3 d-flex justify-content-end">
-                                        <a class="kings-button">Book Now</a>
-                                    </div> 
+                                        <input type="submit" class="kings-button text-dark" value="Book Now">
+                                    </div>
                                 </div>
                             </form>
                         </div>
