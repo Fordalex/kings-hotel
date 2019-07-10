@@ -624,11 +624,21 @@ body {
     color:#EFFFE5;
 }
 
+.walker-package-margin-section {
+    margin-bottom: 75px;
+}
+
 .fearless-package-section-background {
     background:url("../images/fearless-package-background.png")no-repeat center center;
     height:670px;
     background-size:cover;
     padding:0;
+}
+
+.fearless-container {
+    margin-bottom:150px;
+    margin-left:10px;
+    margin-right:10px; 
 }
 
 .packages-color--fearless {
@@ -646,6 +656,10 @@ body {
     padding-top:10px;
     padding-bottom:10px;
     height:100%;
+}
+
+.learn-more-modal-button {
+    border:none;
 }
 
 /*  //packages section  */
@@ -668,7 +682,7 @@ body {
 
 .reviews-title {
     position:relative;
-    bottom:50px;
+    bottom:20px;
 }
 
 .review-image-wrapper--green {
@@ -808,6 +822,10 @@ footer {
     margin: 0px 14px;
 }
 
+.footer-buttons:hover {
+    text-decoration:none;
+}
+
 /*      //footer        */
 
 /*     media queries        */
@@ -921,7 +939,6 @@ footer {
     .desktop-view-picture {
         display: inline-block;
     }
-
     /*  ----- // (hotel-info.html)   ------ */
     .contactus-background-image {
         background:url("../images/contact-page.png")no-repeat bottom center;
@@ -993,7 +1010,10 @@ footer {
 }
 	.review-container {
 		padding-top:220px;
-	}
+    }
+    .reviews-title {
+        bottom:50px;
+    }
 }
 
 @media (min-width: 1200px) {

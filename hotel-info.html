@@ -114,12 +114,43 @@
                 </div>
                 <div class="d-flex justify-content-center mt-3 pb-3">
                     <div class="d-flex justify-content-center align-items-center view-on-map">
-                        <i class="fas fa-map-marker-alt mx-3"></i>
-                        <h5 class="text-secondary">View on map</h5>
+
+                        <button type="button"
+                            class="packages-color--gold kings-button text-dark learn-more-modal-button bg-transparent"
+                            data-toggle="modal" data-target="#open-map">View on map</button>
                     </div>
                 </div>
 
                 <!----     //picture section     ---->
+
+                <!----    modal for the location of the hotel     ---->
+
+                <div class="modal fade" id="open-map" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">King's Hotel</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div>
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d296926.7939413499!2d-3.257568145915751!3d54.4498658008975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487cc16220357017%3A0x17b57bddea6a7a86!2sLake+District+National+Park!5e0!3m2!1sen!2suk!4v1560935323581!5m2!1sen!2suk"
+                                        width="100%" height="320px" frameborder="0" style="border:0"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!----   // modal for the location of the hotel     ---->
 
                 <!----        rating title container top     ---->
 
@@ -413,19 +444,24 @@
                                 <h4 class="text-secondary my-2">Townend</h4>
                                 <p class="text-light">Get tour around the Townend and take a step back in time.
                                 </p>
-                                <a href="#" class="packages-color--gold">Discover</a>
+                                <a href="https://www.nationaltrust.org.uk/townend" target="_blank"
+                                    class="packages-color--gold">Discover</a>
                                 <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
                                 <h4 class="text-secondary my-2">Boat ride</h4>
                                 <p class="text-light">Take a ride of your life through the lakes.</p>
-                                <a href="#" class="packages-color--gold">Discover</a>
+                                <a href="https://www.windermere-lakecruises.co.uk" target="_blank"
+                                    class="packages-color--gold">Discover</a>
                                 <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
                                 <h4 class="text-secondary my-2">Meal for two</h4>
                                 <p class="text-light">Have a delicious meal for two at the famous ""</p>
-                                <a href="#" class="packages-color--gold">Discover</a>
+                                <a href="https://skydivenorthwest.co.uk" target="_blank"
+                                    class="packages-color--gold">Discover</a>
                                 <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
                             </div>
                             <div class="mt-4">
-                                <a href="#" class="packages-color--gold">Learn more</a>
+                                <button type="button"
+                                    class="packages-color--gold learn-more-modal-button bg-transparent"
+                                    data-toggle="modal" data-target="#terms-and-condition">Learn More</button>
                                 <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
                             </div>
                         </div>
@@ -441,23 +477,22 @@
                             <p class="text-light">Book this package if you are looking for a luxurious break,
                                 While
                                 your with us you will enjoy the following:</p>
-                            <div class="px-3">
-                                <h4 class="text-secondary my-2">Townend</h4>
-                                <p class="text-light">Get tour around the Townend and take a step back in time.
+                            <div class="walker-package-margin-section">
+                                <h4 class="text-secondary my-2">Coffin Route Ambleside to Grasmere Route</h4>
+                                <p class="text-light">One of the best routes in the lake district.
                                 </p>
                                 <a href="#" class="packages-color--gold">Discover</a>
                                 <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
-                                <h4 class="text-secondary my-2">Boat ride</h4>
-                                <p class="text-light">Take a ride of your life through the lakes.</p>
-                                <a href="#" class="packages-color--gold">Discover</a>
-                                <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
-                                <h4 class="text-secondary my-2">Meal for two</h4>
-                                <p class="text-light">Have a delicious meal for two at the famous ""</p>
-                                <a href="#" class="packages-color--gold">Discover</a>
+                                <h4 class="text-secondary my-2">Old School Room Tea Shop</h4>
+                                <p class="text-light">Refule at the tea shop.</p>
+                                <a href="https://www.tripadvisor.co.uk/Restaurant_Review-g186319-d2668170-Reviews-The_Old_School_Room_Tea_Shop-Ambleside_Lake_District_Cumbria_England.html"
+                                    target="_blank" class="packages-color--gold">Discover</a>
                                 <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
                             </div>
                             <div class="mt-4">
-                                <a href="#" class="packages-color--gold">Learn more</a>
+                                <button type="button"
+                                    class="packages-color--gold learn-more-modal-button bg-transparent"
+                                    data-toggle="modal" data-target="#terms-and-condition">Learn More</button>
                                 <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
                             </div>
                         </div>
@@ -473,23 +508,22 @@
                             <p class="text-light">Book this package if you are looking for a luxurious break,
                                 While
                                 your with us you will enjoy the following:</p>
-                            <div class="px-3">
-                                <h4 class="text-secondary my-2">Townend</h4>
-                                <p class="text-light">Get a tour around the Townend and take a step back in
-                                    time.</p>
-                                <a href="#" class="packages-color--gold">Discover</a>
+                            <div class="fearless-container">
+                                <h4 class="text-secondary">Skydiving</h4>
+                                <p class="text-light">information</p>
+                                <a href="https://skydivenorthwest.co.uk/" target="_blank"
+                                    class="packages-color--gold">Discover</a>
                                 <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
-                                <h4 class="text-secondary my-2">Boat ride</h4>
-                                <p class="text-light">Take a ride of your life through the lakes.</p>
-                                <a href="#" class="packages-color--gold">Discover</a>
-                                <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
-                                <h4 class="text-secondary my-2">Meal for two</h4>
-                                <p class="text-light">Have a delicious meal for two at the famous ""</p>
-                                <a href="#" class="packages-color--gold">Discover</a>
+                                <h4 class="text-secondary">Rock climbing</h4>
+                                <p class="text-light">information</p>
+                                <a href="https://www.golakes.co.uk/adventure-capital/climbing.aspx" target="_blank"
+                                    class="packages-color--gold">Discover</a>
                                 <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
                             </div>
                             <div class="mt-4">
-                                <a href="#" class="packages-color--gold">Learn more</a>
+                                <button type="button"
+                                    class="packages-color--gold learn-more-modal-button bg-transparent"
+                                    data-toggle="modal" data-target="#terms-and-condition">Learn More</button>
                                 <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
                             </div>
                         </div>
@@ -501,34 +535,36 @@
 
             <!----   Terms and conditions modal for the pakages section   ---->
 
-            <!-- Button trigger modal -->
-
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                Launch demo modal
-            </button>
-
-            <!-- Modal -->
-            
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
+            <div class="modal fade" id="terms-and-condition" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <h5 class="modal-title" id="exampleModalLabel">Terms and conditions</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
                         <div class="modal-body">
-                            ...
+                            <div>
+                                <p>Offer is valid for stays from now through 31st December 2019. Blackout dates apply.
+                                </p>
+                                Offer is valid for bookings before 24th December 2019.</p>
+                                <p>Reservations must be made a minimum of 5 days in advance.</p>
+                                <p>The rate is non-refundable, and one night deposit is required for the entire stay.
+                                </p>
+                                <p>We reserve the right to change the details of the promotion from time to time, and to
+                                    offer alternative benefits should the one requested be unavailable.</p>
+                            </div>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!----   //Terms and conditions modal for the pakages section   ---->
 
             <!----      //packages section       ---->
 
@@ -607,6 +643,9 @@
                                 in years! Would recommend if
                                 your feeling stressed</p>
                         </div>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center mt-5">
+                         <a href="hotel-info.html">Back to the top</a>
                     </div>
                 </div>
             </section>
