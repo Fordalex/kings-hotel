@@ -120,9 +120,13 @@ The project is ran off github pages, at the top of this readme is a link to the 
 	3. best hotel - I liked the way the check dates was one of the first thing that the user saw.
 	4. InterContinental - The fixed book now at the bottom of the page.
 	5. Aws.amazon.com - The animation to scroll down i've re-created and added to my home page.
-	6. w3schools - Animation for the arrows on the home page.
 
 2. Content that i used or borrowed:
 	1.https://www.sallyscottages.co.uk/blog/12-lake-district-walks-tearooms was used to find the walking routes for the packages section. 
 	2.
+
+3. Website that i went to for help:
+	1. Stack overflow: was used for replacing the bullet points with icons.
+	2. w3schools - Animation for the arrows on the home page.
+
 Contact numbers are fake and the location is to the center of the lake district.

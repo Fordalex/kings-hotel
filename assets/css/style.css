@@ -550,15 +550,9 @@ body {
 
 /*  //  rating title container bottom  (Mobile only)  */
 
-/*      rating indicators bottom   (Mobile only)    */
-
-/*   // rating indicators bottom   (Mobile only)    */
-
 /*   //  log rating section  */
 
 /*    information and prices section    */
-
-/*   layout for the information section    */ 
 
 .information-half-section {
     height:200px;
@@ -568,16 +562,19 @@ body {
     height:470px;
 }
 
-/*    //layout for the information section    */
-
-/*   landmarks section   */
-
 .landmark-list {
+    padding:15px;
     margin-top:0px;
     margin-bottom:0px;
 }
 
-/*  //landmarks section   */
+.no-bullet-points {
+    list-style: none;
+}
+
+.no-bullet-points li i {
+    margin-right:8px;
+}
 
 /*  cost per night section   */
 
