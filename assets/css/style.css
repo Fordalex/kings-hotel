@@ -52,6 +52,7 @@ body {
 
 .kings-button:hover {
     background-image: linear-gradient(#e0c82c, #e0c82c, #e0c82c);
+    text-decoration:none;
 }
 
 .kings-button:active {
@@ -633,7 +634,7 @@ body {
 }
 
 .fearless-container {
-    margin-bottom:150px;
+    margin-bottom:125px;
     margin-left:10px;
     margin-right:10px; 
 }
