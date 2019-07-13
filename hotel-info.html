@@ -21,7 +21,7 @@
         <!----        on sale        ---->
 
         <div class="on-sale align-items-center d-none d-md-flex">
-            <p>25% Off when you book more than three nights! <span>More Details.</span></p>
+            <a href="#">25% Off when you book more than three nights! <span>More Details.</span></a>
         </div>
 
         <!----       //on sale        ---->
@@ -30,7 +30,7 @@
 
         <header>
             <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand text-dark ml-2" href="#"><img src="assets/images/logo-v2.png"
+                <a class="navbar-brand text-dark ml-2" href="index.html"><img src="assets/images/logo-v2.png"
                         style="width:40px; height:40px;"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -43,13 +43,12 @@
                         <div>
                             <ul class="navbar-nav mr-auto">
                                 <li class="nav-item active">
-                                    <a class="nav-link page-button" href="index.html">Home <span
-                                            class="sr-only">(current)</span></a>
+                                    <a class="nav-link page-button" href="index.html">Home</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle active-page-indicator" href="#"
                                         id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                                        aria-expanded="false">Hotel Info</a>
+                                        aria-expanded="false">Hotel Info<span class="sr-only">(current)</span></a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="#">Pictures</a>
                                         <a class="dropdown-item" href="#information-page">Info & Prices</a>
@@ -117,7 +116,7 @@
 
                         <button type="button"
                             class="packages-color--gold kings-button text-dark learn-more-modal-button bg-transparent"
-                            data-toggle="modal" data-target="#open-map">View on map</button>
+                            data-toggle="modal" data-target="#open-map">Location on Map</button>
                     </div>
                 </div>
 
@@ -385,38 +384,38 @@
                                 <div class="form-row p-2">
                                     <div class="col-6">
                                         <p>Check-in Date:</p>
-                                        <input type="date" class="form-control">
+                                        <input type="date" class="form-control" name="date-in">
                                     </div>
                                     <div class="col-6">
                                         <p>Check-out Date:</p>
-                                        <input type="date" class="form-control">
+                                        <input type="date" class="form-control" name="date-out">
                                     </div>
                                 </div>
                                 <div class="form-row p-2">
                                     <div class="col-4">
                                         <p>Adults:</p>
-                                        <input type="number" class="form-control" placeholder="2" min="1">
+                                        <input type="number" class="form-control" placeholder="2" min="1" name="adults">
                                     </div>
                                     <div class="col-4">
                                         <p>Children:</p>
-                                        <input type="number" class="form-control" placeholder="1" min="0">
+                                        <input type="number" class="form-control" placeholder="1" min="0" name="children">
                                     </div>
                                     <div class="col-4">
                                         <p>Rooms:</p>
-                                        <input type="number" class="form-control" placeholder="1" min="1">
+                                        <input type="number" class="form-control" placeholder="1" min="1" name="rooms">
                                     </div>
                                 </div>
                                 <div class="form-row p-2 m-0 mt-3">
                                     <div class="col-7 p-0">
-                                        <select class="form-control">
-                                            <option>King's/Queen</option>
-                                            <option>The Walkers</option>
-                                            <option>The Fearless</option>
-                                            <option>None</option>
+                                        <select class="form-control" name="packages">
+                                            <option value="kings-queens">King's/Queen</option>
+                                            <option value="walkers">The Walkers</option>
+                                            <option value="fearless">The Fearless</option>
+                                            <option value="none">None</option>
                                         </select>
                                     </div>
                                     <div class="col-5 p-0 d-flex align-items-center justify-content-end">
-                                        <input type="submit" class="kings-button text-dark" value="Book Now">
+                                        <input type="submit" class="kings-button text-dark" value="Book-Now">
                                     </div>
                                 </div>
                             </form>
@@ -437,32 +436,35 @@
                         <div class="packages-alpha-over">
                             <h3 class="packages-color--gold mb-4 packages-title">Packages</h3>
                             <h5 class="packages-color--king text-center mb-3">King's and Queens</h5>
-                            <p class="text-light">Book this package if you are looking for a luxurious break,
-                                While
-                                your with us you will enjoy the following:</p>
+                            <p class="text-light">Book this package if you are looking for a luxurious break, While
+                                you're with us you will enjoy the following:</p>
                             <div class="px-3">
                                 <h4 class="text-secondary my-2">Townend</h4>
                                 <p class="text-light">Get tour around the Townend and take a step back in time.
                                 </p>
                                 <a href="https://www.nationaltrust.org.uk/townend" target="_blank"
-                                    class="packages-color--gold">Discover</a>
-                                <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
+                                    class="packages-color--gold packages-color--gold-button">Discover<i
+                                        class="packages-color--gold far fa-arrow-alt-circle-up ml-1"></i></a>
+
                                 <h4 class="text-secondary my-2">Cruise</h4>
                                 <p class="text-light">Take a ride of your life through the lakes.</p>
                                 <a href="https://www.windermere-lakecruises.co.uk" target="_blank"
-                                    class="packages-color--gold">Discover</a>
-                                <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
+                                    class="packages-color--gold packages-color--gold-button">Discover<i
+                                        class="packages-color--gold far fa-arrow-alt-circle-up ml-1"></i></a>
+
                                 <h4 class="text-secondary my-2">Meal for two</h4>
-                                <p class="text-light">Have a delicious meal for two at the famous ""</p>
-                                <a href="https://skydivenorthwest.co.uk" target="_blank"
-                                    class="packages-color--gold">Discover</a>
-                                <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
+                                <p class="text-light">Have a delicious meal for two at the 'Cottage In The Wood'</p>
+                                <a href="https://www.thecottageinthewood.co.uk/restaurant/" target="_blank"
+                                    class="packages-color--gold packages-color--gold-button">Discover<i
+                                        class="packages-color--gold far fa-arrow-alt-circle-up ml-1"></i></a>
+
                             </div>
                             <div class="mt-4">
                                 <button type="button"
-                                    class="packages-color--gold learn-more-modal-button bg-transparent"
-                                    data-toggle="modal" data-target="#terms-and-condition">Learn More</button>
-                                <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
+                                    class="packages-color--gold packages-color--gold-button learn-more-modal-button bg-transparent"
+                                    data-toggle="modal" data-target="#terms-and-condition">Learn More<i
+                                        class="packages-color--gold far fa-arrow-alt-circle-up ml-1"></i></button>
+
                             </div>
                         </div>
                     </div>
@@ -474,24 +476,29 @@
                     <div class="col-sm-12 py-3 col-lg-4 walkers-package-section-background">
                         <div class="packages-alpha-over">
                             <h5 class="packages-color--walkers text-center mt-5 mb-3">The Walkers</h5>
-                            <p class="text-light">This deal is more for people that enjoy the outdoors and relaxing walk's:</p>
+                            <p class="text-light">This deal is more for people that enjoy the outdoors and relaxing
+                                walk's:</p>
                             <div class="walker-package-margin-section">
                                 <h4 class="text-secondary my-2">Coffin Route Ambleside to Grasmere Route</h4>
-                                <p class="text-light">Work up a casual sweat with one of the best routes in the lake district.
+                                <p class="text-light">Work up a casual sweat with one of the best routes in the lake
+                                    district.
                                 </p>
-                                <a target="_blank" href="https://www.mudandroutes.com/routes/easy-walk-coffin-route-ambleside-to-grasmere/" class="packages-color--gold">Discover</a>
-                                <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
+                                <a target="_blank"
+                                    href="https://www.mudandroutes.com/routes/easy-walk-coffin-route-ambleside-to-grasmere/"
+                                    class="packages-color--gold packages-color--gold-button">Discover<i
+                                        class="packages-color--gold far fa-arrow-alt-circle-up ml-1"></i></a>
                                 <h4 class="text-secondary my-2">Old School Room Tea Shop</h4>
                                 <p class="text-light">Then treat yourself to a re-fule at the tea shop.</p>
                                 <a href="https://www.tripadvisor.co.uk/Restaurant_Review-g186319-d2668170-Reviews-The_Old_School_Room_Tea_Shop-Ambleside_Lake_District_Cumbria_England.html"
-                                    target="_blank" class="packages-color--gold">Discover</a>
-                                <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
+                                    target="_blank" class="packages-color--gold packages-color--gold-button">Discover<i
+                                        class="packages-color--gold far fa-arrow-alt-circle-up ml-1"></i></a>
+
                             </div>
                             <div class="mt-4">
                                 <button type="button"
-                                    class="packages-color--gold learn-more-modal-button bg-transparent"
-                                    data-toggle="modal" data-target="#terms-and-condition">Learn More</button>
-                                <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
+                                    class="packages-color--gold packages-color--gold-button learn-more-modal-button bg-transparent"
+                                    data-toggle="modal" data-target="#terms-and-condition">Learn More<i
+                                        class="packages-color--gold far fa-arrow-alt-circle-up ml-1"></i></button>
                             </div>
                         </div>
                     </div>
@@ -506,21 +513,23 @@
                             <p class="text-light">This package accommodates the crazy:</p>
                             <div class="fearless-container">
                                 <h4 class="text-secondary">Skydiving</h4>
-                                <p class="text-light">Ever wanted to skydive? This package will make sure your bigest fears are tested</p>
+                                <p class="text-light">Ever wanted to skydive? This package will make sure your biggest
+                                    fears are tested.</p>
                                 <a href="https://skydivenorthwest.co.uk/" target="_blank"
-                                    class="packages-color--gold">Discover</a>
-                                <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
+                                    class="packages-color--gold packages-color--gold-button">Discover<i
+                                        class="packages-color--gold far fa-arrow-alt-circle-up ml-1"></i></a>
                                 <h4 class="text-secondary">Rock climbing</h4>
-                                <p class="text-light">After jumping out of a plane you should'nt have a problem with hight's, but are you strong enough?</p>
+                                <p class="text-light">After jumping out of a plane you shouldn't have a problem with
+                                    hight's, but are you strong enough?</p>
                                 <a href="https://www.golakes.co.uk/adventure-capital/climbing.aspx" target="_blank"
-                                    class="packages-color--gold">Discover</a>
-                                <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
+                                    class="packages-color--gold packages-color--gold-button">Discover<i
+                                        class="packages-color--gold far fa-arrow-alt-circle-up ml-1"></i></a>
                             </div>
                             <div class="mt-4">
                                 <button type="button"
-                                    class="packages-color--gold learn-more-modal-button bg-transparent"
-                                    data-toggle="modal" data-target="#terms-and-condition">Learn More</button>
-                                <i class="packages-color--gold far fa-arrow-alt-circle-up"></i>
+                                    class="packages-color--gold packages-color--gold-button learn-more-modal-button bg-transparent"
+                                    data-toggle="modal" data-target="#terms-and-condition">Learn More<i
+                                        class="packages-color--gold far fa-arrow-alt-circle-up ml-1"></i></button>
                             </div>
                         </div>
                     </div>
@@ -577,7 +586,8 @@
                         </div>
                         <div>
                             <h3 class="d-inline-block">Rebecca Green</h3>
-                            <p>Me and my dog had loads of walks and pleny of food, the hotel was clean and comfy was just what we needed.</p>
+                            <p>Me and my dog had loads of walks and plenty of food, the hotel was clean and comfy was
+                                just what we needed.</p>
                         </div>
                     </div>
 
@@ -618,7 +628,8 @@
                         </div>
                         <div>
                             <h3 class="d-inline-block">Steven Batty</h3>
-                            <p>This was very exciting as i booked the 'fearless' package, i didnt relise what i was capable of!</p>
+                            <p>This was very exciting as i booked the 'fearless' package, i didnt relise what i was
+                                capable of!</p>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 my-3">
@@ -631,7 +642,7 @@
                         </div>
                     </div>
                     <div class="col-12 d-flex justify-content-center mt-5">
-                         <a href="hotel-info.html">Back to the top</a>
+                        <a href="hotel-info.html">Back to the top</a>
                     </div>
                 </div>
             </section>
@@ -645,10 +656,13 @@
             <div class="row d-flex align-items-center footer-container">
                 <div class="col-sm-12 col-md-6 col-lg-3 footer-social-container">
                     <p class="d-inline m-0 mx-1">Join us on social media:</p>
-                    <a href="https://en-gb.facebook.com/" target="_blank"><i class="fab fa-facebook-square mx-1"></i></a>
-                <a target="_blank" href="https://www.pinterest.co.uk/"><i class="fab fa-pinterest-square mx-1"></i></a>
-                <a target="_blank" href="https://twitter.com/?lang=en-gb"><i class="fab fa-twitter-square mx-1"></i></a>
-                <a target="_blank" href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram mx-1"></i></a>
+                    <a href="https://en-gb.facebook.com/" target="_blank"><i
+                            class="fab fa-facebook-square mx-1"></i></a>
+                    <a target="_blank" href="https://www.pinterest.co.uk/"><i
+                            class="fab fa-pinterest-square mx-1"></i></a>
+                    <a target="_blank" href="https://twitter.com/?lang=en-gb"><i
+                            class="fab fa-twitter-square mx-1"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram mx-1"></i></a>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-3 footer-address-container">
                     <h6 class="m-0">Address:</h6>

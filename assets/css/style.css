@@ -4,6 +4,10 @@ body {
 
 /*     generic    */
 
+i {
+    transition:all 1s;
+}
+
 /*      layout     */
 
 .half-section-container {
@@ -102,7 +106,7 @@ body {
     display: flex;
 }
 
-.on-sale p {
+.on-sale a {
     color: #FEE997;
     margin: 12px;
 }
@@ -113,14 +117,17 @@ body {
 
 .on-sale:hover {
     background-color:gold;
+    text-decoration:none;
 }
 
-.on-sale:hover p {
+.on-sale:hover a {
     color: black;
+    text-decoration:none;
 }
 
 .on-sale:hover span {
     color: white;
+    text-decoration:none;
 }
 
 /*      //on sale       */
@@ -530,10 +537,6 @@ body {
 
 /*  //  rating title container top    */
 
-/*      rating indicators top       */
-
-/*   // rating indicators top       */
-
 /*      rating title container bottom  (Mobile only)  */
 
 .rating-title-container-bottom {
@@ -645,6 +648,18 @@ body {
 
 .packages-color--gold {
     color:#E5C352;
+    transition:all 1s;
+}
+
+.packages-color--gold-button:hover {
+    color:#feffe3;
+    text-decoration:none;
+}
+
+.packages-color--gold-button:hover i {
+    color:#feffe3;
+    text-decoration:none;
+    transform: rotate(180deg)
 }
 
 .packages-alpha-over {

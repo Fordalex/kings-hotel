@@ -21,7 +21,7 @@
         <!----        on sale        ---->
 
         <div class="on-sale align-items-center d-none d-md-flex">
-            <p>25% Off when you book more than three nights! <span>More Details.</span></p>
+            <a href="#">25% Off when you book more than three nights! <span>More Details.</span></a>
         </div>
 
         <!----       //on sale        ---->
@@ -30,7 +30,7 @@
 
         <header>
             <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand text-dark ml-2" href="#"><img src="assets/images/logo-v2.png"
+                <a class="navbar-brand text-dark ml-2" href="index.html"><img src="assets/images/logo-v2.png"
                         style="width:40px; height:40px;"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -43,8 +43,7 @@
                         <div>
                             <ul class="navbar-nav mr-auto">
                                 <li class="nav-item active">
-                                    <a class="nav-link page-button" href="index.html">Home <span
-                                            class="sr-only">(current)</span></a>
+                                    <a class="nav-link page-button" href="index.html">Home</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle page-button" href="#" id="navbarDropdown"
@@ -59,7 +58,8 @@
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active-page-indicator" href="#">Book Now / Contact Us</a>
+                                    <a class="nav-link active-page-indicator" href="#">Book Now / Contact Us<span
+                                            class="sr-only">(current)</span></a>
                                 </li>
                             </ul>
                         </div>
@@ -94,63 +94,64 @@
                                 <div class="form-row m-0 p-2">
                                     <div class="col-6">
                                         <p class="m-0 smaller-mobile-font">Check-in date:</p>
-                                        <input type="date" class="form-control">
+                                        <input type="date" class="form-control" name="date-in">
                                     </div>
                                     <div class="col-6">
                                         <p class="m-0 smaller-mobile-font">Check-out date:</p>
-                                        <input type="date" class="form-control">
+                                        <input type="date" class="form-control" name="date-out">
                                     </div>
                                 </div>
                                 <div class="form-row m-0 p-2">
                                     <div class="col-3">
                                         <p class="m-0 smaller-mobile-font">Adults:</p>
-                                        <input type="number" class="form-control" placeholder="2" min="1">
+                                        <input type="number" class="form-control" placeholder="2" min="1" name="adults">
                                     </div>
                                     <div class="col-3">
                                         <p class="m-0 smaller-mobile-font">Children:</p>
-                                        <input type="number" class="form-control" placeholder="1" min="0">
+                                        <input type="number" class="form-control" placeholder="1" min="0"
+                                            name="children">
                                     </div>
                                     <div class="col-3">
                                         <p class="m-0 smaller-mobile-font">Rooms:</p>
-                                        <input type="number" class="form-control" placeholder="1" min="1">
+                                        <input type="number" class="form-control" placeholder="1" min="1" name="rooms">
                                     </div>
                                     <div class="col-3">
                                         <p class="m-0 smaller-mobile-font">Packages:</p>
-                                        <select class="form-control">
-                                            <option>King's/Queen</option>
-                                            <option>The Walkers</option>
-                                            <option>The Fearless</option>
-                                            <option selected>None</option>
+                                        <select value="packages" class="form-control">
+                                            <option value="kings/queens">King's/Queen</option>
+                                            <option value="walkers">The Walkers</option>
+                                            <option value="fearless">The Fearless</option>
+                                            <option value="none" selected>None</option>
                                         </select>
                                     </div>
                                 </div>
 
                                 <div class="border m-2 bg-light p-3">
-                                <div class="form-row m-0">
-                                    <div class="col-6 mt-2">
-                                        <div>
-                                            <p>Rooms:</p>
-                                            <p>Cost per night:</p>
-                                            <p>Adults:</p>
-                                            <p>Children</p>
-                                            <p>Total nights:</p>
-                                            <p>Package savings:</p>
-                                            <p class="m-0">Total price:</p>
+                                    <div class="form-row m-0">
+                                        <div class="col-6 mt-2">
+                                            <div>
+                                                <p>Rooms:</p>
+                                                <p>Cost per night:</p>
+                                                <p>Adults:</p>
+                                                <p>Children</p>
+                                                <p>Total nights:</p>
+                                                <p>Package savings:</p>
+                                                <p class="m-0">Total price:</p>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-6 d-flex justify-content-end">
-                                        <div>
-                                            <p>1</p>
-                                            <p>£150.00</p>
-                                            <p>2</p>
-                                            <p>1</p>
-                                            <p>5</p>
-                                            <p>£48.55</p>
-                                            <p class="m-0">£701.45</p>
+                                        <div class="col-6 d-flex justify-content-end">
+                                            <div>
+                                                <p>1</p>
+                                                <p>£150.00</p>
+                                                <p>2</p>
+                                                <p>1</p>
+                                                <p>5</p>
+                                                <p>£48.55</p>
+                                                <p class="m-0">£701.45</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
                                 <div class="form-row m-0">
                                     <div class="col-12 mt-3 d-flex justify-content-end">
                                         <input type="submit" class="kings-button text-dark" value="Book Now">
@@ -167,6 +168,8 @@
                 <div class="vertical-hr"></div>
                 <hr class="horizontal-hr">
 
+                <!----          contact us form          ---->
+
                 <div class="half-section-wrapper">
                     <div class="booknow-title-container">
                         <div>
@@ -176,15 +179,12 @@
                         </div>
                     </div>
 
-
-                    <!----          contact us form          ---->
-
                     <div class="booknow-section-background mb-5">
                         <div class="page-border">
                             <form>
                                 <div class="form-row p-2">
                                     <div class="col-4">
-                                        <select id="title" name="country" class="form-control" required />
+                                        <select class="form-control" name="title" required />
                                         <option value="mr">Mr</option>
                                         <option value="mrs">Mrs</option>
                                         <option value="miss">Miss</option>
@@ -205,7 +205,7 @@
                                 </div>
                                 <div class="form-row p-2">
                                     <div class="col">
-                                        <input type="tel" name="tel" placeholder="Phone" class="form-control"
+                                        <input type="tel" name="telephone" placeholder="Phone" class="form-control"
                                             required />
                                     </div>
                                 </div>
@@ -224,7 +224,7 @@
                                 <div class="form-row p-2">
                                     <div class="d-flex align-items-center">
                                         <p class="mb-1 ml-2 mr-3 mt-1">Subscribe to our news letter</p>
-                                        <input type="checkbox">
+                                        <input type="checkbox" name="news-letter" value="true">
                                     </div>
                                     <div class="col d-flex justify-content-end mt-2">
                                         <input type="submit" value="Send" class=" text-dark kings-button" />
@@ -246,10 +246,13 @@
             <div class="row d-flex align-items-center footer-container">
                 <div class="col-sm-12 col-md-6 col-lg-3 footer-social-container">
                     <p class="d-inline m-0 mx-1">Join us on social media:</p>
-                    <a href="https://en-gb.facebook.com/" target="_blank"><i class="fab fa-facebook-square mx-1"></i></a>
-                <a target="_blank" href="https://www.pinterest.co.uk/"><i class="fab fa-pinterest-square mx-1"></i></a>
-                <a target="_blank" href="https://twitter.com/?lang=en-gb"><i class="fab fa-twitter-square mx-1"></i></a>
-                <a target="_blank" href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram mx-1"></i></a>
+                    <a href="https://en-gb.facebook.com/" target="_blank"><i
+                            class="fab fa-facebook-square mx-1"></i></a>
+                    <a target="_blank" href="https://www.pinterest.co.uk/"><i
+                            class="fab fa-pinterest-square mx-1"></i></a>
+                    <a target="_blank" href="https://twitter.com/?lang=en-gb"><i
+                            class="fab fa-twitter-square mx-1"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram mx-1"></i></a>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-3 footer-address-container">
                     <h6 class="m-0">Address:</h6>
