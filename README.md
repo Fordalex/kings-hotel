@@ -58,7 +58,8 @@ All of the JavaScript will be done using bootstrap, I will be using bootstrap fo
 
 * BOOK NOW! I have added many ways for the user to check the availability and easy access to 'book now' buttons, a fixed element at the bottom right of the hotel information page reminds the user they can book there stay at anytime and they don't need to try and find there way to the book now page.
 
-* Also while the user scroll's down the hotel information page a 'book now' element is fixed to the bottom right side of the page making sure not to cover up any content, but prompting the user to book as soon as there happy with the information about the hotel. I was inspired to add this feature by [InterContinental](HTTPS://www.ihg.com/intercontinental/hotels/gb/en/reservation).
+* Also while the user scroll's down the hotel information page a 'book now' element is fixed to the bottom right side of the page making sure not to cover up any content, but prompting the user to book as soon as there happy with the information about the hotel. I was inspired to add this feature by 
+[InterContinental](HTTPS://www.ihg.com/intercontinental/hotels/gb/en/reservation).
 
 ## Technologies Used
 
@@ -98,7 +99,8 @@ The project is running off GitHub pages, at the top of this readme is a link to 
 
 ### Content
 
-1. The faculties landmarks were taken from: The location is from the [Keswick Park Hotel](HTTPS://keswickparkhotel.co.uk)
+1. The faculties landmarks were taken from: The location is from the 
+[Keswick Park Hotel](HTTPS://keswickparkhotel.co.uk)
 2. Faculties and feel at home: we're made up but a few ideas were taken from hotel.com
 3. https://www.sallyscottages.co.uk/blog/12-lake-district-walks-tearooms was used to find the walking routes for the packages section. 
 4. http://www.langhamhotels.com/en/the-langham/london/offers/room-offers/advance-purchase/ I used this website for the terms and conditions I just copy and pasted to the term's and condition modal.
@@ -122,12 +124,13 @@ The project is running off GitHub pages, at the top of this readme is a link to 
     2. w3schools - Animation for the arrows on the home page.
 
 3. The links to the other pages i used for the packages section.
-	1.
-	2.
-	3.
-	4.
-	5.
-	6.
-	7.
+
+[Townend](https://www.nationaltrust.org.uk/townend)
+[LakeCruises](https://www.windermere-lakecruises.co.uk)
+[TheCottageInTheWoods](HTTPS://www.thecottageinthewood.co.uk/restaurant/)
+[MudAndRoutes](https://www.mudandroutes.com/routes/easy-walk-coffin-route-ambleside-to-grasmere/)
+[TripAdvisor](https://www.tripadvisor.co.uk/Restaurant_Review-g186319-d2668170-Reviews-The_Old_School_Room_Tea_Shop-Ambleside_Lake_District_Cumbria_England.html)
+[SkyDiveNorthWest](https://skydivenorthwest.co.uk/)
+[GoLakes](https://www.golakes.co.uk/adventure-capital/climbing.aspx)
 
 Contact numbers are fake and the location is to the center of the lake district.
