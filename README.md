@@ -98,8 +98,7 @@ The project is running off GitHub pages, at the top of this readme is a link to 
 
 ### Content
 
-1. The faculties landmarks were taken from: The location is from the [Keswick Park Hotel]
-(https://keswickparkhotel.co.uk)
+1. The faculties landmarks were taken from: The location is from the [Keswick Park Hotel](HTTPS://keswickparkhotel.co.uk)
 2. Faculties and feel at home: we're made up but a few ideas were taken from hotel.com
 3. https://www.sallyscottages.co.uk/blog/12-lake-district-walks-tearooms was used to find the walking routes for the packages section. 
 4. http://www.langhamhotels.com/en/the-langham/london/offers/room-offers/advance-purchase/ I used this website for the terms and conditions I just copy and pasted to the term's and condition modal.
@@ -121,5 +120,14 @@ The project is running off GitHub pages, at the top of this readme is a link to 
 2. Websites that i went to for help:
     1. Stack overflow: was used for replacing the bullet points with icons.
     2. w3schools - Animation for the arrows on the home page.
+
+3. The links to the other pages i used for the packages section.
+	1.
+	2.
+	3.
+	4.
+	5.
+	6.
+	7.
 
 Contact numbers are fake and the location is to the center of the lake district.
