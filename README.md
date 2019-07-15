@@ -135,4 +135,6 @@ The project is running off GitHub pages, at the top of this readme is a link to 
 [SkyDiveNorthWest](https://skydivenorthwest.co.uk/)
 [GoLakes](https://www.golakes.co.uk/adventure-capital/climbing.aspx)
 
+I also used a book html&css design and build websites wrote by jon duckett 
+
 Contact numbers are fake and the location is to the center of the lake district.
