@@ -102,8 +102,10 @@ The project is running off GitHub pages, at the top of this readme is a link to 
 1. The faculties landmarks were taken from: The location is from the 
 [Keswick Park Hotel](HTTPS://keswickparkhotel.co.uk)
 2. Faculties and feel at home: we're made up but a few ideas were taken from hotel.com
-3. https://www.sallyscottages.co.uk/blog/12-lake-district-walks-tearooms was used to find the walking routes for the packages section. 
-4. http://www.langhamhotels.com/en/the-langham/london/offers/room-offers/advance-purchase/ I used this website for the terms and conditions I just copy and pasted to the term's and condition modal.
+3. 
+[SallysCottages](https://www.sallyscottages.co.uk/blog/12-lake-district-walks-tearooms) was used to find the walking routes for the packages section. 
+4. 
+[LanghamHotels](http://www.langhamhotels.com/en/the-langham/london/offers/room-offers/advance-purchase/) I used this website for the terms and conditions I just copy and pasted to the term's and condition modal.
 
 ### Media 
 
