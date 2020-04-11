@@ -4,7 +4,7 @@ I started the king's hotel when Code Institute assigned me this project, which w
 
 ## View the project
 
-Please take a look at [King's hotel](HTTPS://fordalex.github.io/milestone-project/)
+Please take a look at [King's hotel](HTTPS://fordalex.github.io/kings-hotel/)
 
 ## UX
 
